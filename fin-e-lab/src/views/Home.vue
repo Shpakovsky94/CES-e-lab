@@ -1,20 +1,60 @@
 <template>
   <body>
-
-   <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
       <a class="navbar-brand" href="/">FIN-e-lab</a>
     </nav>
 
     <div class="grid-container">
-      
       <div class="left">
         <ul>
           <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href
+            <a 
               >00 - Planning
+              <span class="folder-indicator">+</span>
+            </a>
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a >01 - RAK notes <span class="folder-indicator">+</span> </a>
+
+            <ul>
+              <li>
+                <router-link to="/rak-notes/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a>02 - ARK notes <span class="folder-indicator">+</span> </a>
+
+            <ul>
+              <li>
+                <router-link to="/ark-notes/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  01 - ELPO
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              >03 - ELE (subcontractor Elements)
               <span class="folder-indicator">+</span>
             </a>
             <ul>
@@ -26,18 +66,36 @@
               </li>
             </ul>
           </li>
-
           <li>
             <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >01 - RAK notes <span class="folder-indicator">+</span>        
+              >04 - KPH prefabricated bathrooms
+              <span class="folder-indicator">+</span>
             </a>
-
             <ul>
               <li>
-                <router-link to="/rak-notes/general-notes">
+                <router-link to="/planning/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span></router-link
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a>05 - REI notes <span class="folder-indicator">+</span> </a>
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span></router-link
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a>06 - SAH notes <span class="folder-indicator">+</span> </a>
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
                   00 - General notes
                   <span class="folder-indicator">+</span></router-link
                 >
@@ -46,112 +104,204 @@
           </li>
           <li>
             <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >02 - ARK notes <span class="folder-indicator">+</span></a
-            >
+              >07 - POR Porras (Stairs) <span class="folder-indicator">+</span>
+            </a>
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span></router-link
+                >
+              </li>
+            </ul>
           </li>
           <li>
             <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >03 - ELE (subcontractor Elements)
-              <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >04 - KPH prefabricated bathrooms
-              <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >05 - REI notes <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >06 - REI notes <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >07 - SAH notes <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
               >08 - VSS Väestönsuoja (Bomb Shelter)
-              <span class="folder-indicator">+</span></a
-            >
+              <span class="folder-indicator">+</span>
+            </a>
+
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span></router-link
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a>09 - V- elements <span class="folder-indicator">+</span> </a>
+
+            <ul>
+              <li>
+                <router-link to="/ark-notes/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  01 - ELPO
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a>10 - L- elements <span class="folder-indicator">+</span> </a>
+
+            <ul>
+              <li>
+                <router-link to="/ark-notes/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  1_0_Modeling_General_notes
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  1_1_1_Modeling_slabs_division
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  1_1_Modeling_Shape
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  1_2_Modeling_Component
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  1_3_Modeling_NOSTOLENKIT_(Lifting_anchors)
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  1_4_Modeling_KAIDEHOLKIT_(Safety_barriers)
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  2_Calculation
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+                  <li>
+                <router-link to="/ark-notes/elpo">
+                  3_Reinforcing
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+                  <li>
+                <router-link to="/ark-notes/elpo">
+                  4_REIKA_Openings_task
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+                   <li>
+                <router-link to="/ark-notes/elpo">
+                  5_Drawings
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+
+            </ul>
+
+          </li>
+          <li>
+            <a>11 - O- elements <span class="folder-indicator">+</span> </a>
+
+            <ul>
+              <li>
+                <router-link to="/ark-notes/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/ark-notes/elpo">
+                  01 - ELPO
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+            </ul>
           </li>
           <li>
             <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >09 - V- elements <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >10 - L- elements <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >11 - O- elements <span class="folder-indicator">+</span></a
-            >
-          </li>
-          <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
               >12 - HKU/HY/HA- elements
-              <span class="folder-indicator">+</span></a
-            >
+              <span class="folder-indicator">+</span>
+            </a>
+
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
+                  00 - General notes
+                  <span class="folder-indicator">+</span></router-link
+                >
+              </li>
+            </ul>
           </li>
           <li>
             <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
               >13 - Components description
-              <span class="folder-indicator">+</span></a
-            >
+              <span class="folder-indicator">+</span>
+            </a>
+
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
+                  3. VÄLISEINÄ (Inner wall)
+                  <span class="folder-indicator">+</span></router-link
+                >
+              </li>
+
+              <li>
+                <router-link to="/planning/general-notes">
+                  5. SÄH
+                  <span class="folder-indicator">+</span></router-link
+                >
+              </li>
+            </ul>
           </li>
           <li>
-            <a
-              data-ajax="true"
-              data-ajax-update="#foldertarget-13946388-14955496"
-              href="/Folder/13946388/Open/14955496"
-              >14 - Drawings <span class="folder-indicator">+</span></a
-            >
+            <a>14 - Drawings <span class="folder-indicator">+</span> </a>
+
+            <ul>
+              <li>
+                <router-link to="/planning/general-notes">
+                  GA-
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+
+              <li>
+                <router-link to="/planning/general-notes">
+                  L-
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+
+              <li>
+                <router-link to="/planning/general-notes">
+                  V-
+                  <span class="folder-indicator">+</span>
+                </router-link>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -182,17 +332,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /* The grid container */
 .grid-container {
   display: grid;
   grid-template-areas:
     "left middle middle middle middle middle middle middle"
     "footer footer footer footer footer footer footer footer";
+      grid-template-columns: 25% 75%;
 }
 
 .left,
-.middle{
+.middle {
   padding: 10px;
 }
 

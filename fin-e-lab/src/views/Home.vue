@@ -1,6 +1,6 @@
 <template>
   <body>
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <nav class="navbar navbar-expand navbar-dark bg-dark header">
       <a class="navbar-brand" href="/">FIN-e-lab</a>
     </nav>
 
@@ -8,7 +8,7 @@
       <div class="left">
         <ul>
           <li>
-            <a 
+            <a
               >00 - Planning
               <span class="folder-indicator">+</span>
             </a>
@@ -16,20 +16,18 @@
               <li>
                 <router-link to="/planning/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
             </ul>
           </li>
 
           <li>
-            <a >01 - RAK notes <span class="folder-indicator">+</span> </a>
+            <a>01 - RAK notes <span class="folder-indicator">+</span> </a>
 
             <ul>
               <li>
                 <router-link to="/rak-notes/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
             </ul>
@@ -41,13 +39,11 @@
               <li>
                 <router-link to="/ark-notes/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   01 - ELPO
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
             </ul>
@@ -59,10 +55,9 @@
             </a>
             <ul>
               <li>
-                <router-link to="/planning/general-notes">
+                <router-link to="/ele/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
               </li>
             </ul>
           </li>
@@ -73,10 +68,9 @@
             </a>
             <ul>
               <li>
-                <router-link to="/planning/general-notes">
+                <router-link to="/kph/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
               </li>
             </ul>
           </li>
@@ -84,10 +78,9 @@
             <a>05 - REI notes <span class="folder-indicator">+</span> </a>
             <ul>
               <li>
-                <router-link to="/planning/general-notes">
+                <router-link to="/rei/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
               </li>
             </ul>
           </li>
@@ -95,10 +88,9 @@
             <a>06 - SAH notes <span class="folder-indicator">+</span> </a>
             <ul>
               <li>
-                <router-link to="/planning/general-notes">
+                <router-link to="/sah/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
               </li>
             </ul>
           </li>
@@ -110,8 +102,7 @@
               <li>
                 <router-link to="/planning/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
               </li>
             </ul>
           </li>
@@ -125,8 +116,8 @@
               <li>
                 <router-link to="/planning/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
+
               </li>
             </ul>
           </li>
@@ -137,13 +128,11 @@
               <li>
                 <router-link to="/ark-notes/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   01 - ELPO
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
             </ul>
@@ -155,72 +144,59 @@
               <li>
                 <router-link to="/ark-notes/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   1_0_Modeling_General_notes
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   1_1_1_Modeling_slabs_division
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   1_1_Modeling_Shape
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   1_2_Modeling_Component
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   1_3_Modeling_NOSTOLENKIT_(Lifting_anchors)
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   1_4_Modeling_KAIDEHOLKIT_(Safety_barriers)
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   2_Calculation
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
-                  <li>
+              <li>
                 <router-link to="/ark-notes/elpo">
                   3_Reinforcing
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
-                  <li>
+              <li>
                 <router-link to="/ark-notes/elpo">
                   4_REIKA_Openings_task
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
-                   <li>
+              <li>
                 <router-link to="/ark-notes/elpo">
                   5_Drawings
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
-
             </ul>
-
           </li>
           <li>
             <a>11 - O- elements <span class="folder-indicator">+</span> </a>
@@ -229,13 +205,11 @@
               <li>
                 <router-link to="/ark-notes/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
                   01 - ELPO
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
             </ul>
@@ -250,8 +224,7 @@
               <li>
                 <router-link to="/planning/general-notes">
                   00 - General notes
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
               </li>
             </ul>
           </li>
@@ -265,15 +238,14 @@
               <li>
                 <router-link to="/planning/general-notes">
                   3. VÄLISEINÄ (Inner wall)
-                  <span class="folder-indicator">+</span></router-link
-                >
+                                    </router-link>
+
               </li>
 
               <li>
                 <router-link to="/planning/general-notes">
                   5. SÄH
-                  <span class="folder-indicator">+</span></router-link
-                >
+                  </router-link>
               </li>
             </ul>
           </li>
@@ -284,21 +256,18 @@
               <li>
                 <router-link to="/planning/general-notes">
                   GA-
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
 
               <li>
                 <router-link to="/planning/general-notes">
                   L-
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
 
               <li>
                 <router-link to="/planning/general-notes">
                   V-
-                  <span class="folder-indicator">+</span>
                 </router-link>
               </li>
             </ul>
@@ -306,7 +275,7 @@
         </ul>
       </div>
 
-      <div class="middle" style="background-color: #bbb">
+      <div class="right">
         <div>
           <router-view />
         </div>
@@ -332,28 +301,39 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
 /* The grid container */
 .grid-container {
   display: grid;
   grid-template-areas:
-    "left middle middle middle middle middle middle middle"
-    "footer footer footer footer footer footer footer footer";
-      grid-template-columns: 25% 75%;
+    "left right"
+    "footer footer";
+  grid-template-columns: 25% 75%;
 }
 
 .left,
-.middle {
+.right {
   padding: 10px;
 }
 
 /* Style the left column */
 .left {
   grid-area: left;
+      background-color: ghostwhite;
+        border-right: 15px solid #343a40;
+
+
 }
 
-/* Style the middle column */
-.middle {
-  grid-area: middle;
+/* Style the right column */
+.right {
+    background-color: ghostwhite;
+  grid-area: right;
 }
 
 /* Style the footer */
@@ -368,8 +348,8 @@ body {
 @media (max-width: 600px) {
   .grid-container {
     grid-template-areas:
-      "left middle middle middle middle middle middle middle"
-      "footer footer footer footer footer footer footer footer";
+      "left right"
+      "footer footer";
   }
 }
 
@@ -384,7 +364,5 @@ body {
   border-radius: 1px;
 }
 
-ul {
-  list-style-type: none;
-}
+
 </style>

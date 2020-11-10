@@ -13,14 +13,19 @@
        </li>
        <li>
            For inner walls elements (see next V), for top recess should be used (xpar_LEIKKAUS_YR.)
+           //TODO: link to the component
            <br>
-           <img src="../images/1.jpg" alt="1" height="70%" width="70%">
+           <img src="./asserts/1.jpg" alt="1" height="70%" width="70%">
            <br>
            For bottom holes (xpar_LEIKKAUS_AR).
+                      //TODO: link to the component
+
            <br>
            NB! For more detail about component see (1_2_Modeling_Component) chapter.
+                      //TODO: link to the component
+
            <br>
-           <img src="../images/2.jpg" alt="2" height="20%" width="20%">
+           <img src="./asserts/2.jpg" alt="2" height="20%" width="20%">
        </li>
        <li>
             NB! For elevator roofs could be provided ventilation opening.

@@ -8,10 +8,15 @@
            <img src="./asserts/1.jpg" alt="1" height="30%" width="30%">
        </li>
        <li>
-           ELPO is a product for communication systems connection. <br> For more detail about component see (1_ELPO) chapter.
+           ELPO is a product for communication systems connection. <br> For more detail about component see  
+           <router-link to="/ark-notes/elpo">
+                  ELPO chapter
+                </router-link>
+                .
        </li>
        <li>
            There are certain rules about elements division and joint structure.
+           //TODO: Fix links
            For more detail about component see (1_1_1_Modeling_walls_devision) chapter.
        </li>
        <li>
@@ -20,7 +25,10 @@
        <li>
            Door openings could have wooden blocks in opening frame, for doors assembly.
            NB! Information can be find in INFO file.
+                                 //TODO: Fix links
+
            Component (xpar_OVIAUKKO).
+                      //TODO: Fix links
            For more detail about component see (1_2_Modeling_Component) chapter.
            <img src="./asserts/2.jpg" alt="2" height="70%" width="70%">
        </li>

@@ -6,6 +6,7 @@
 
 <script>
 import Home from '@/views/Home';
+import './assets/css/main.css';
 
 export default {
    name: 'App',

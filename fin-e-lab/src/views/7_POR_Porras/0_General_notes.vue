@@ -21,6 +21,10 @@
             For first floor, should be provided connection according to the stair task. Common that it is recess in slab element.
         </li>
     </ol>
+        E.g.
+            <br>
+
+            <img src="./asserts/1.jpg" alt="1" height="400 px" width="800 px" />
 
 </div>
 </div>

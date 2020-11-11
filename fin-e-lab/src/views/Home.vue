@@ -100,7 +100,7 @@
             </a>
             <ul>
               <li>
-                <router-link to="/planning/general-notes">
+                <router-link to="/por/general-notes">
                   00 - General notes
                   </router-link>
               </li>
@@ -114,29 +114,126 @@
 
             <ul>
               <li>
-                <router-link to="/planning/general-notes">
+                <router-link to="/vss/general-notes">
                   00 - General notes
                   </router-link>
 
               </li>
             </ul>
           </li>
+          
           <li>
             <a>09 - V- elements <span class="folder-indicator">+</span> </a>
 
             <ul>
               <li>
-                <router-link to="/ark-notes/general-notes">
+                <router-link to="/v-element/general-notes">
                   00 - General notes
                 </router-link>
               </li>
               <li>
-                <router-link to="/ark-notes/elpo">
-                  01 - ELPO
+                <router-link to="/v-element/general-notes/cassette">
+                  0_0 General notes Cassette casting
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/general-notes/table">
+                  0_0 General notes Table casting
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-general-notes">
+                  1_0 Modeling General notes
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-walls-devision">
+                  1_1_1 Modeling walls devision
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-shape">
+                  1_1 Modeling Shape
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-components">
+                  1_2 Modeling Component
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-nostolenkit">
+                  1_3 Modeling NOSTOLENKIT (Lifting anchors)
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-kaideholkit">
+                  1_4 Modeling KAIDEHOLKIT (Safety barriers)
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-tapit">
+                  1_5 Modeling TAPIT (Vertical dowels)
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-ura">
+                  1_6 Modeling URA (Vertical seams)
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-avk">
+                  1_7 Modeling AVK (Recesses for dowels)
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-painepesu">
+                  1_8 Modeling PAINEPESU (Pressure wash)
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-vemo">
+                  1_9 Modeling VEMO
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-hk-ha-hy">
+                  1_10 Modeling HK/HA/HY (Lift shaht elements)
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/modeling-lippa">
+                  1_11 Modeling LIPPA
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/calculation">
+                  2 Calculation
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/reinforcing">
+                  3 Reinforcing
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/reika">
+                  4 REIKA Openings task
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/sewatek">
+                  5 SEWATEK
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/v-element/sah">
+                  6 SÄH Electricity
                 </router-link>
               </li>
             </ul>
           </li>
+
           <li>
             <a>10 - L- elements <span class="folder-indicator">+</span> </a>
 
@@ -342,6 +439,7 @@ body {
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
+  width: 100%;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */

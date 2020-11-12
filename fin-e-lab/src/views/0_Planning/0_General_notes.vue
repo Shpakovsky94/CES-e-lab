@@ -1,6 +1,10 @@
 <template>
 <div>
-    Element drawing should be presented for a factory 6 weeks before element should be delivered to construction site.
+
+  <iframe src = "https://www.google.com/" width = "555" height = "200">
+
+         Sorry your browser does not support inline frames.
+      </iframe>
 
 </div>
 </template>

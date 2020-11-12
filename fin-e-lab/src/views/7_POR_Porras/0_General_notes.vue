@@ -24,7 +24,7 @@
         E.g.
             <br>
 
-            <img src="./asserts/1.jpg" alt="1" height="400 px" width="800 px" />
+            <img src="./asserts/1.jpg" alt="1" height="500 px" width="800 px" />
 
 </div>
 </div>

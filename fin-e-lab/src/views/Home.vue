@@ -14,9 +14,7 @@
             </a>
             <ul>
               <li>
-                <router-link to="/planning/general-notes">
-                  00 - General notes
-                </router-link>
+                      <a href="https://consolis-my.sharepoint.com/:w:/r/personal/oleksandr_shpakovskyi_consolis_com/_layouts/15/Doc.aspx?sourcedoc=%7B91114BAC-4281-4568-A25E-A06880BB818A%7D&file=0_General_notes.docx&action=default&mobileredirect=true" target="_blank" >00 - General notes</a>
               </li>
             </ul>
           </li>
@@ -25,11 +23,13 @@
             <a>01 - RAK notes <span class="folder-indicator">+</span> </a>
 
             <ul>
-              <li>
-                <router-link to="/rak-notes/general-notes">
-                  00 - General notes
-                </router-link>
+              
+                 <li>
+                      <a href="https://consolis-my.sharepoint.com/:w:/p/oleksandr_shpakovskyi/EdWRVVOOmH5Jj_DOlYu4BxgBt-TWirIuFoj6T3DQ23nF9w?e=DsXIlI" target="_blank" >
+                      00 - General notes
+                      </a>
               </li>
+              
             </ul>
           </li>
           <li>

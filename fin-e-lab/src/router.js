@@ -1,5 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import Meta from "vue-meta";
+
 import Planning_General_notes from './views/0_Planning/0_General_notes.vue'
 import RAK_notes_General_notes from './views/1_RAK_notes/0_General_notes.vue'
 import ARK_notes_General_notes from './views/2_ARK_notes/0_General_notes.vue'
@@ -32,6 +34,7 @@ import V_Reika from './views/9_V_elements/4_REIKA_Openings_task.vue'
 import V_Sewatek from './views/9_V_elements/5_SEWATEK.vue'
 import V_Sah from './views/9_V_elements/6_SÄH_Electricity.vue'
 
+Vue.use(Meta);
 Vue.use(Router);
 
 export const router = new Router(

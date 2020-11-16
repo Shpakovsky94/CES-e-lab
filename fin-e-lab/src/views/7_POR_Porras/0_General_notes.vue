@@ -1,34 +1,15 @@
 <template>
-<div>
-
-<div class="basic">
-    <h4>Notes:</h4>
-    <ol>
-        <li>
-            Stairs are not produced on Parma factories. Usually RUDUS is producing them.       </li>
-        <li>
-            Stairs task could be found in …\Porras project folder.
-        </li>
-        <li>
-            Modeler should check stairs connection solutions, and provide elements shape and cast-in-materials according to this details.       </li>
-        <li>
-            Usually for last floor, and floor below (penultimate floor), could be different stairs connections solutions, modeler should be aware of it.
-        </li>
-        <li>
-            For penultimate floor stairs landing do not need be provided (exemption Stairs are going to the roof).
-        </li>
-        <li>
-            For first floor, should be provided connection according to the stair task. Common that it is recess in slab element.
-        </li>
-    </ol>
-        E.g.
-            <br>
-
-            <img src="./asserts/1.jpg" alt="1" height="500 px" width="800 px" />
-
-</div>
-</div>
-
+ <div>
+    <iframe
+      src="https://consolis-my.sharepoint.com/personal/oleksandr_shpakovskyi_consolis_com/_layouts/15/Doc.aspx?sourcedoc={4cc07de4-cb10-436b-a84a-84000b8eaa89}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
+      width="100%"
+      height="850px"
+      frameborder="0"
+      >This is an embedded
+      <a target="_blank" href="https://office.com">Microsoft Office</a>
+      document, powered by
+      <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+  </div>
 </template>
 
 <script>

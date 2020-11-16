@@ -1,28 +1,15 @@
 <template>
-<div>
-   <h3>TABLE walls - 4301</h3>
-   TABLE walls should be used when:
-    <br />
-
-        <ul style="list-style-type:circle" >
-      <li>
-        V element has meshes. 
-                <br/>
-        (Cassette form can’t be used for this kind of the walls):
-      </li>
-      <li>
-        V element with column type part;
-      </li>
-    </ul>
-    TABLE walls maximum dimensions should be confirmed with the factory. 
-Standard types are shown in the table below:
-                <br/>
-
-            <img src="./asserts/11.jpg" alt="1" height="200 px" width="700 px" />
-
-
-</div>
-
+ <div>
+    <iframe
+      src="https://consolis-my.sharepoint.com/personal/oleksandr_shpakovskyi_consolis_com/_layouts/15/Doc.aspx?sourcedoc={7d0d344d-dddb-49e2-8d45-c34fdc82fe14}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
+      width="100%"
+      height="850px"
+      frameborder="0"
+      >This is an embedded
+      <a target="_blank" href="https://office.com">Microsoft Office</a>
+      document, powered by
+      <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+  </div>
 </template>
 
 <script>

@@ -1,9 +1,15 @@
 <template>
-<div>
-
-
-</div>
-
+ <div>
+    <iframe
+      src="https://consolis-my.sharepoint.com/personal/oleksandr_shpakovskyi_consolis_com/_layouts/15/Doc.aspx?sourcedoc={8330bba2-bf28-434d-a9b9-c1ae555fcda1}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
+      width="100%"
+      height="850px"
+      frameborder="0"
+      >This is an embedded
+      <a target="_blank" href="https://office.com">Microsoft Office</a>
+      document, powered by
+      <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+  </div>
 </template>
 
 <script>

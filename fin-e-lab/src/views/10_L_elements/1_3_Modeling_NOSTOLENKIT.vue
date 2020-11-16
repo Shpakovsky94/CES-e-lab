@@ -1,26 +1,18 @@
 <template>
-  <div class="basic">
-    <h4>Notes:</h4>
-    <ol>
-        <li>
-            POMMISUOJA (Bomb Shelter) (see next VSS) task could be found in …\VSS project folder.
-        </li>
-        <li>
-            VSS is not always provided for each building.
-        </li>
-        <li>
-            Areas where VSS elements are located next to Parma’s precast elements, <br> should be checked with Hole task from flow below, usually could be some special opening.
-        </li>
-        <li>
-            VSS element usually cast-in-place (see next CIP) elements, and are not produced in Parma factories.
-            Information about all cast-in-materials (see next CIM), edge seams (see next URA),
-            and wall Connecting wire loops (see next VL) should be provided for VSS designer on “.krs” plan.
-        </li>
-    </ol>
-
-
-</div>
+ <div>
+   TODO: add word doc to the oneDrive
+    <iframe
+      src="https://consolis-my.sharepoint.com/personal/oleksandr_shpakovskyi_consolis_com/_layouts/15/Doc.aspx?sourcedoc={351cf789b-c5f5-4e7b-91ed-057f9988ec68}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
+      width="100%"
+      height="850px"
+      frameborder="0"
+      >This is an embedded
+      <a target="_blank" href="https://office.com">Microsoft Office</a>
+      document, powered by
+      <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+  </div>
 </template>
+
 
 <script>
 export default {

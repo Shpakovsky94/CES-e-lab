@@ -162,6 +162,11 @@
             </a>
             <ul v-if="!isHiddenVSection">
               <li>
+                <router-link to="/v-element/standard-operating-procedure">
+                  Standard operating procedure
+                </router-link>
+              </li>
+              <li>
                 <router-link to="/v-element/general-notes">
                   00 - General notes
                 </router-link>
@@ -279,6 +284,11 @@
 
             <ul v-if="!isHiddenLSection">
               <li>
+                <router-link to="/l-element/standard-operating-procedure">
+                  Standard operating procedure
+                </router-link>
+              </li>
+              <li>
                 <router-link to="/l-element/general-notes">
                   00 - General notes
                 </router-link>
@@ -344,15 +354,16 @@
             </a>
             <ul v-if="!isHiddenOSection">
               <li>
+                <router-link to="/o-element/standard-operating-procedure">
+                  Standard operating procedure
+                </router-link>
+              </li>
+              <li>
                 <router-link to="/o-element/general-notes">
                   00 - General notes
                 </router-link>
               </li>
-              <li>
-                <router-link to="/o-element/modeling-notes">
-                  01 - Modeling notes
-                </router-link>
-              </li>
+            
             </ul>
           </li>
 

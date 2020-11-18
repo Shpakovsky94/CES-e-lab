@@ -48,6 +48,18 @@ import HKU_HY_HA_General_notes from "./views/12_HKU_HY_HA_elements/0_General_not
 import Component_xpar_KUTISTUMISRAUDOITE from "./views/13_Components_Description/3_VALISEINA/3_3_RAUDOITUKSET/xpar_KUTISTUMISRAUDOITE.vue";
 import Component_xpar_HANAKULMA from "./views/13_Components_Description/3_VALISEINA/3_4_REIAT/xpar_HANAKULMA.vue";
 import Component_xpar_IW_URA from "./views/13_Components_Description/3_VALISEINA/3_4_REIAT/xpar_IW_URA.vue";
+import Drawings_Revision from "./views/14_Drawings/Revision.vue";
+import Drawings_Ga_General_notes from "./views/14_Drawings/GA/0_General_notes.vue";
+import Drawings_Ga_Drawings_tapit from "./views/14_Drawings/GA/1_Drawings_Tapit.vue";
+import Drawings_Ga_Checklist from "./views/14_Drawings/GA/Drawing_checklist.vue";
+import Drawings_L_General_notes from "./views/14_Drawings/L/0_General_notes.vue";
+import Drawings_L_Checklist from "./views/14_Drawings/L/Drawing_checklist.vue";
+import Drawings_V_General_notes from "./views/14_Drawings/V/0_General_notes.vue";
+import Drawings_V_Drawing_Creation from "./views/14_Drawings/V/1_0_1_Drawing_Creation.vue";
+import Drawings_V_Vertical_Section from "./views/14_Drawings/V/1_0_2_Drawing_Vertical_section.vue";
+import Drawings_V_Horizontal_Section from "./views/14_Drawings/V/1_0_3_Drawing_Horizontal_section.vue";
+import Drawings_V_Front_View from "./views/14_Drawings/V/1_0_4_Drawing_Front_view.vue";
+import Drawings_V_Checklist from "./views/14_Drawings/V/Drawing_checklist.vue";
 
 
 
@@ -248,6 +260,54 @@ export const router = new Router({
     {
       path: "/components/xpar-iw-ura",
       component: Component_xpar_IW_URA,
+    },
+    {
+      path: "/drawings/revision",
+      component: Drawings_Revision,
+    },
+    {
+      path: "/drawings/ga-drawings/general-notes",
+      component: Drawings_Ga_General_notes,
+    },
+    {
+      path: "/drawings/ga-drawings/tapit",
+      component: Drawings_Ga_Drawings_tapit,
+    },
+    {
+      path: "/drawings/ga-drawings/checklist",
+      component: Drawings_Ga_Checklist,
+    },
+    {
+      path: "/drawings/l-drawings/general-notes",
+      component: Drawings_L_General_notes,
+    },
+    {
+      path: "/drawings/l-drawings/checklist",
+      component: Drawings_L_Checklist,
+    },
+    {
+      path: "/drawings/v-drawings/general-notes",
+      component: Drawings_V_General_notes,
+    },
+    {
+      path: "/drawings/v-drawings/checklist",
+      component: Drawings_V_Checklist,
+    },
+    {
+      path: "/drawings/v-drawings/drawing-creation",
+      component: Drawings_V_Drawing_Creation,
+    },
+    {
+      path: "/drawings/v-drawings/drawing-vertical-section",
+      component: Drawings_V_Vertical_Section,
+    },
+    {
+      path: "/drawings/v-drawings/drawing-horizontal-section",
+      component: Drawings_V_Horizontal_Section,
+    },
+    {
+      path: "/drawings/v-drawings/drawing-front-view",
+      component: Drawings_V_Front_View,
     },
   ],
 });

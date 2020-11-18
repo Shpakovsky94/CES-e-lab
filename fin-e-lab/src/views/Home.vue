@@ -168,7 +168,7 @@
               </li>
               <li>
                 <router-link to="/v-element/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
               <li>
@@ -309,18 +309,8 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/l-element/modeling-component">
-                  1_2_Modeling_Component
-                </router-link>
-              </li>
-              <li>
                 <router-link to="/l-element/modeling-nostolenkit">
-                  1_3_Modeling_NOSTOLENKIT_(Lifting_anchors)
-                </router-link>
-              </li>
-              <li>
-                <router-link to="/l-element/modeling-kaideholkit">
-                  1_4_Modeling_KAIDEHOLKIT_(Safety_barriers)
+                  1_2_Modeling_NOSTOLENKIT_(Lifting_anchors)
                 </router-link>
               </li>
               <li>
@@ -336,11 +326,6 @@
               <li>
                 <router-link to="/l-element/rei">
                   4_REIKA_Openings_task
-                </router-link>
-              </li>
-              <li>
-                <router-link to="/l-element/drawings">
-                  5_Drawings
                 </router-link>
               </li>
             </ul>
@@ -363,7 +348,6 @@
                   00 - General notes
                 </router-link>
               </li>
-            
             </ul>
           </li>
 
@@ -416,10 +400,9 @@
                           xpar_KUTISTUMISRAUDOITE
                         </router-link>
                       </li>
-                      
                     </ul>
                   </li>
-                   <li>
+                  <li>
                     <a
                       v-on:click="
                         isHiddenComponentDesValiseinaRei = !isHiddenComponentDesValiseinaRei
@@ -440,7 +423,7 @@
                         </router-link>
                       </li>
                     </ul>
-                       </li>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -464,21 +447,114 @@
             </a>
             <ul v-if="!isHiddenDrawingSection">
               <li>
-                <router-link to="/planning/general-notes">
-                  GA-
+                <router-link to="/drawings/revision">
+                  Revision
                 </router-link>
               </li>
 
-              <li>
-                <router-link to="/planning/general-notes">
-                  L-
-                </router-link>
+              <li class="changeBackgroundPointer">
+                <a
+                  v-on:click="
+                    isHiddenGaDrawingSection = !isHiddenGaDrawingSection
+                  "
+                  class="changeLiBackgroundColor"
+                  >GA-
+                </a>
+                <ul v-if="!isHiddenGaDrawingSection">
+                    <a target="_blank"
+                    href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/Ev3yIcv3cBBAllt9h_zeXycBfKBOIBTxH5HHJzu295AxOA?e=61TW4W"
+                    >Example drawings
+                  </a>
+                  <li>
+                    <router-link to="/drawings/ga-drawings/checklist">
+                      Drawing checklist
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/ga-drawings/general-notes">
+                      0_0 General notes
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/ga-drawings/tapit">
+                      0_1 Drawings tapit
+                    </router-link>
+                  </li>
+                </ul>
               </li>
 
-              <li>
-                <router-link to="/planning/general-notes">
-                  V-
-                </router-link>
+              <li class="changeBackgroundPointer">
+                <a
+                  v-on:click="
+                    isHiddenLDrawingSection = !isHiddenLDrawingSection
+                  "
+                  class="changeLiBackgroundColor"
+                  >L-
+                </a>
+                <ul v-if="!isHiddenLDrawingSection">
+                  <a target="_blank"
+                    href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/ErNmF5IqAQpHkdO527335YQBoAzu6Hwqtqcv1_ULGhytBw?e=qdbccU"
+                    >Example drawings
+                  </a>
+                  <li>
+                    <router-link to="/drawings/l-drawings/checklist">
+                      Drawing checklist
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/l-drawings/general-notes">
+                      0_0 General notes
+                    </router-link>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="changeBackgroundPointer">
+                <a
+                  v-on:click="
+                    isHiddenVDrawingSection = !isHiddenVDrawingSection
+                  "
+                  class="changeLiBackgroundColor"
+                  >V-
+                </a>
+                <ul v-if="!isHiddenVDrawingSection">
+                  <a
+                    target="_blank"
+                    href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/EkYjuxw9m65OooHwJi8zmL4BbqHj2a75dOQPKjJR0KMQzg?e=PryzE2"
+                    >Example drawings
+                  </a>
+                  <li>
+                    <router-link to="/drawings/v-drawings/checklist">
+                      Drawing checklist
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/v-drawings/general-notes">
+                      0_0 General notes
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/v-drawings/drawing-creation">
+                      1_0_1 Drawing Creation
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/v-drawings/drawing-vertical-section">
+                      1_0_2 Drawing Vertical section
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/v-drawings/drawing-horizontal-section">
+                      1_0_3 Drawing Horizontal section
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/drawings/v-drawings/drawing-front-view">
+                      1_0_4 Drawing Front view
+                    </router-link>
+                  </li>
+
+                </ul>
               </li>
             </ul>
           </li>
@@ -536,7 +612,9 @@ export default {
       isHiddenComponentDesValiseinaRei: true,
       isHiddenComponentDesSah: true,
       isHiddenDrawingSection: true,
-      
+      isHiddenGaDrawingSection: true,
+      isHiddenLDrawingSection: true,
+      isHiddenVDrawingSection: true,
     };
   },
   methods: {

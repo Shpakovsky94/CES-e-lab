@@ -1,7 +1,7 @@
 <template>
   <body>
     <nav class="navbar navbar-expand navbar-dark bg-dark header">
-      <a class="navbar-brand" href="/">FIN-e-lab</a>
+      <a class="navbar-brand" href="/">CES-FIN</a>
     </nav>
 
     <div class="grid-container">
@@ -9,15 +9,54 @@
         <ul>
           <li class="changeBackgroundPointer">
             <a
-              v-on:click="isHiddenPlanning = !isHiddenPlanning"
+              v-on:click="
+                isHiddenDepartmentOverview = !isHiddenDepartmentOverview
+              "
               class="changeLiBackgroundColor"
             >
-              00 - Planning
+              Department overview
             </a>
-            <ul v-if="!isHiddenPlanning">
+            <ul v-if="!isHiddenDepartmentOverview">
+
               <li>
-                <router-link to="/planning/general-notes">
-                  00 - General notes
+                <router-link to="/fin-department/weekly-report">
+                  CES-Fin Weekly Report
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/fin-department/ressurside-table">
+                  CES-Fin Ressurside table
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/fin-department/beebole">
+                  Beebole
+                </router-link>
+              </li>
+            </ul>
+          </li>
+
+          <li class="changeBackgroundPointer">
+            <a
+              v-on:click="isHiddenStartingTheModel = !isHiddenStartingTheModel"
+              class="changeLiBackgroundColor"
+            >
+              00 - Starting the model
+            </a>
+            <ul v-if="!isHiddenStartingTheModel">
+              <li>
+                <router-link to="/starting/how-to-start-the-model">
+                  1_0 - How to start the model
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/starting/par-det">
+                  2_0 - ParDET
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/starting/sewatek-list">
+                  3_0 - Sewatek list
                 </router-link>
               </li>
             </ul>
@@ -33,7 +72,7 @@
             <ul v-if="!isHiddenRakNotes">
               <li>
                 <router-link to="/rak-notes/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -49,12 +88,12 @@
             <ul v-if="!isHiddenArkNotes">
               <li>
                 <router-link to="/ark-notes/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
               <li>
                 <router-link to="/ark-notes/elpo">
-                  01 - ELPO
+                  0_1 - ELPO
                 </router-link>
               </li>
             </ul>
@@ -69,7 +108,7 @@
             <ul v-if="!isHiddenEle">
               <li>
                 <router-link to="/ele/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -85,7 +124,7 @@
             <ul v-if="!isHiddenKPH">
               <li>
                 <router-link to="/kph/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -101,7 +140,7 @@
             <ul v-if="!isHiddenRei">
               <li>
                 <router-link to="/rei/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -116,7 +155,7 @@
             <ul v-if="!isHiddenSah">
               <li>
                 <router-link to="/sah/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -132,7 +171,7 @@
             <ul v-if="!isHiddenPor">
               <li>
                 <router-link to="/por/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -148,7 +187,7 @@
             <ul v-if="!isHiddenVss">
               <li>
                 <router-link to="/vss/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -173,12 +212,12 @@
               </li>
               <li>
                 <router-link to="/v-element/general-notes/cassette">
-                  0_0 General notes Cassette casting
+                  0_1 General notes Cassette casting
                 </router-link>
               </li>
               <li>
                 <router-link to="/v-element/general-notes/table">
-                  0_0 General notes Table casting
+                  0_2 General notes Table casting
                 </router-link>
               </li>
               <li>
@@ -290,7 +329,7 @@
               </li>
               <li>
                 <router-link to="/l-element/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
               <li>
@@ -345,7 +384,7 @@
               </li>
               <li>
                 <router-link to="/o-element/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -361,7 +400,7 @@
             <ul v-if="!isHiddenHKU_HY_HA">
               <li>
                 <router-link to="/hku-hy-ha/general-notes">
-                  00 - General notes
+                  0_0 - General notes
                 </router-link>
               </li>
             </ul>
@@ -461,7 +500,8 @@
                   >GA-
                 </a>
                 <ul v-if="!isHiddenGaDrawingSection">
-                    <a target="_blank"
+                  <a
+                    target="_blank"
                     href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/Ev3yIcv3cBBAllt9h_zeXycBfKBOIBTxH5HHJzu295AxOA?e=61TW4W"
                     >Example drawings
                   </a>
@@ -492,7 +532,8 @@
                   >L-
                 </a>
                 <ul v-if="!isHiddenLDrawingSection">
-                  <a target="_blank"
+                  <a
+                    target="_blank"
                     href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/ErNmF5IqAQpHkdO527335YQBoAzu6Hwqtqcv1_ULGhytBw?e=qdbccU"
                     >Example drawings
                   </a>
@@ -539,12 +580,16 @@
                     </router-link>
                   </li>
                   <li>
-                    <router-link to="/drawings/v-drawings/drawing-vertical-section">
+                    <router-link
+                      to="/drawings/v-drawings/drawing-vertical-section"
+                    >
                       1_0_2 Drawing Vertical section
                     </router-link>
                   </li>
                   <li>
-                    <router-link to="/drawings/v-drawings/drawing-horizontal-section">
+                    <router-link
+                      to="/drawings/v-drawings/drawing-horizontal-section"
+                    >
                       1_0_3 Drawing Horizontal section
                     </router-link>
                   </li>
@@ -553,7 +598,6 @@
                       1_0_4 Drawing Front view
                     </router-link>
                   </li>
-
                 </ul>
               </li>
             </ul>
@@ -593,7 +637,8 @@
 export default {
   data() {
     return {
-      isHiddenPlanning: true,
+      isHiddenStartingTheModel: true,
+      isHiddenDepartmentOverview: true,
       isHiddenRakNotes: true,
       isHiddenArkNotes: true,
       isHiddenEle: true,

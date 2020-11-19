@@ -2,7 +2,7 @@ module.exports = {
   "transpileDependencies": [
   ],
   // devServer: {
-  //   host: 'fin-e-lab',
+  //   host: 'ces-fin',
   //   disableHostCheck: true
 
   // }

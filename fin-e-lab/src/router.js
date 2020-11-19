@@ -1,7 +1,14 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Logo from "./views/Logo.vue";
-import Planning_General_notes from "./views/0_Planning/0_General_notes.vue";
+
+import Ces_Department_Weekly_Report from "./views/Department_overview/1_CES_Fin_Weekly_Report.vue";
+import Ces_Department_Ressurside_table from "./views/Department_overview/2_CES_Fin_Ressurside_table.vue";
+import Ces_Department_Beebole from "./views/Department_overview/3_Beebole.vue";
+
+import Model_Starting from "./views/0_Starting_the_model/1_Model_starting.vue";
+import Pardet from "./views/0_Starting_the_model/2_Pardet.vue";
+import Sewatek_List from "./views/0_Starting_the_model/3_Sewatek_list.vue";
 import RAK_notes_General_notes from "./views/1_RAK_notes/0_General_notes.vue";
 import ARK_notes_General_notes from "./views/2_ARK_notes/0_General_notes.vue";
 import ARK_notes_ELPO from "./views/2_ARK_notes/1_ELPO.vue";
@@ -61,9 +68,6 @@ import Drawings_V_Horizontal_Section from "./views/14_Drawings/V/1_0_3_Drawing_H
 import Drawings_V_Front_View from "./views/14_Drawings/V/1_0_4_Drawing_Front_view.vue";
 import Drawings_V_Checklist from "./views/14_Drawings/V/Drawing_checklist.vue";
 
-
-
-
 Vue.use(Router);
 
 export const router = new Router({
@@ -74,8 +78,36 @@ export const router = new Router({
       component: Logo,
     },
     {
-      path: "/planning/general-notes",
-      component: Planning_General_notes,
+      path: "/fin-department/weekly-report",
+      component: Ces_Department_Weekly_Report,
+    },
+    {
+      path: "/fin-department/ressurside-table",
+      component: Ces_Department_Ressurside_table,
+    },
+    {
+      path: "/fin-department/beebole",
+      component: Ces_Department_Beebole,
+    },
+    {
+      path: "/fin-department/weekly-report",
+      component: Model_Starting,
+    },
+    {
+      path: "/fin-department/ressurside-tabel",
+      component: Model_Starting,
+    },
+    {
+      path: "/starting/how-to-start-the-model",
+      component: Model_Starting,
+    },
+    {
+      path: "/starting/par-det",
+      component: Pardet,
+    },
+    {
+      path: "/starting/sewatek-list",
+      component: Sewatek_List,
     },
     {
       path: "/rak-notes/general-notes",

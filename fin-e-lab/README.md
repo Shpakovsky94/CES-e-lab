@@ -1,4 +1,4 @@
-# fin-e-lab
+# ces-fin
 
 ## Project setup
 ```

@@ -2,14 +2,25 @@ import Vue from "vue";
 import Router from "vue-router";
 import Logo from "./views/Logo.vue";
 
-import Ces_Department_Weekly_Report from "./views/Department_overview/1_CES_Fin_Weekly_Report.vue";
-import Ces_Department_Ressurside_table from "./views/Department_overview/2_CES_Fin_Ressurside_table.vue";
-import Ces_Department_Beebole from "./views/Department_overview/3_Beebole.vue";
+import Sub1_1 from "./views/Heading1/Sub1_1.vue";
+import Sub1_2 from "./views/Heading1/Sub1_2.vue";
+import Sub1_3 from "./views/Heading1/Sub1_3.vue";
+import Sub1_4 from "./views/Heading1/Sub1_4.vue";
+import Sub1_5 from "./views/Heading1/Sub1_5.vue";
 
-import Model_Starting from "./views/0_Starting_the_model/1_Model_starting.vue";
-import Pardet from "./views/0_Starting_the_model/2_Pardet.vue";
-import Sewatek_List from "./views/0_Starting_the_model/3_Sewatek_list.vue";
-import RAK_notes_General_notes from "./views/1_RAK_notes/0_General_notes.vue";
+import Sub2_1 from "./views/Heading2/Sub2_1.vue";
+import Sub2_2 from "./views/Heading2/Sub2_2.vue";
+import Sub2_3 from "./views/Heading2/Sub2_3.vue";
+import Sub2_4 from "./views/Heading2/Sub2_4.vue";
+import Sub2_5 from "./views/Heading2/Sub2_5.vue";
+
+import Sub3_1 from "./views/Heading3/Sub3_1.vue";
+import Sub3_2 from "./views/Heading3/Sub3_2.vue";
+import Sub3_3 from "./views/Heading3/Sub3_3.vue";
+import Sub3_4 from "./views/Heading3/Sub3_4.vue";
+import Sub3_5 from "./views/Heading3/Sub3_5.vue";
+
+
 import ARK_notes_General_notes from "./views/2_ARK_notes/0_General_notes.vue";
 import ARK_notes_ELPO from "./views/2_ARK_notes/1_ELPO.vue";
 import ELE_General_notes from "./views/3_ELE/0_General_notes.vue";
@@ -78,41 +89,69 @@ export const router = new Router({
       component: Logo,
     },
     {
-      path: "/fin-department/weekly-report",
-      component: Ces_Department_Weekly_Report,
+      path: "/heading1/sub1-1",
+      component: Sub1_1,
     },
     {
-      path: "/fin-department/ressurside-table",
-      component: Ces_Department_Ressurside_table,
+      path: "/heading1/sub1-2",
+      component: Sub1_2,
     },
     {
-      path: "/fin-department/beebole",
-      component: Ces_Department_Beebole,
+      path: "/heading1/sub1-3",
+      component: Sub1_3,
     },
     {
-      path: "/fin-department/weekly-report",
-      component: Model_Starting,
+      path: "/heading1/sub1-4",
+      component: Sub1_4,
     },
     {
-      path: "/fin-department/ressurside-tabel",
-      component: Model_Starting,
+      path: "/heading1/sub1-5",
+      component: Sub1_5,
+    },
+
+    {
+      path: "/heading2/sub2-1",
+      component: Sub2_1,
     },
     {
-      path: "/starting/how-to-start-the-model",
-      component: Model_Starting,
+      path: "/heading2/sub2-2",
+      component: Sub2_2,
     },
     {
-      path: "/starting/par-det",
-      component: Pardet,
+      path: "/heading2/sub2-3",
+      component: Sub2_3,
     },
     {
-      path: "/starting/sewatek-list",
-      component: Sewatek_List,
+      path: "/heading2/sub2-4",
+      component: Sub2_4,
     },
     {
-      path: "/rak-notes/general-notes",
-      component: RAK_notes_General_notes,
+      path: "/heading2/sub2-5",
+      component: Sub2_5,
     },
+
+    {
+      path: "/heading3/sub3-1",
+      component: Sub3_1,
+    },
+    {
+      path: "/heading3/sub3-2",
+      component: Sub3_2,
+    },
+    {
+      path: "/heading3/sub3-3",
+      component: Sub3_3,
+    },
+    {
+      path: "/heading3/sub3-4",
+      component: Sub3_4,
+    },
+    {
+      path: "/heading3/sub3-5",
+      component: Sub3_5,
+    },
+
+
     {
       path: "/ark-notes/general-notes",
       component: ARK_notes_General_notes,

@@ -20,11 +20,24 @@ import Sub3_3 from "./views/Heading3/Sub3_3.vue";
 import Sub3_4 from "./views/Heading3/Sub3_4.vue";
 import Sub3_5 from "./views/Heading3/Sub3_5.vue";
 
+import Sub4_1 from "./views/Heading4/Sub4_1.vue";
+import Sub4_2 from "./views/Heading4/Sub4_2.vue";
+import Sub4_3 from "./views/Heading4/Sub4_3.vue";
+import Sub4_4 from "./views/Heading4/Sub4_4.vue";
+import Sub4_5 from "./views/Heading4/Sub4_5.vue";
 
-import ARK_notes_General_notes from "./views/2_ARK_notes/0_General_notes.vue";
-import ARK_notes_ELPO from "./views/2_ARK_notes/1_ELPO.vue";
-import ELE_General_notes from "./views/3_ELE/0_General_notes.vue";
-import KPH_General_notes from "./views/4_KPH/0_General_notes.vue";
+import Sub5_1 from "./views/Heading5/Sub5_1.vue";
+import Sub5_2 from "./views/Heading5/Sub5_2.vue";
+import Sub5_3 from "./views/Heading5/Sub5_3.vue";
+import Sub5_4 from "./views/Heading5/Sub5_4.vue";
+import Sub5_5 from "./views/Heading5/Sub5_5.vue";
+
+import Sub6_1 from "./views/Heading6/Sub6_1.vue";
+import Sub6_2 from "./views/Heading6/Sub6_2.vue";
+import Sub6_3 from "./views/Heading6/Sub6_3.vue";
+import Sub6_4 from "./views/Heading6/Sub6_4.vue";
+import Sub6_5 from "./views/Heading6/Sub6_5.vue";
+
 import REI_General_notes from "./views/5_REI_notes/0_General_notes.vue";
 import SAH_General_notes from "./views/6_SAH_notes/0_General_notes.vue";
 import POR_General_notes from "./views/7_POR_Porras/0_General_notes.vue";
@@ -151,23 +164,70 @@ export const router = new Router({
       component: Sub3_5,
     },
 
+    {
+      path: "/heading4/sub4-1",
+      component: Sub4_1,
+    },
+    {
+      path: "/heading4/sub4-2",
+      component: Sub4_2,
+    },
+    {
+      path: "/heading4/sub4-3",
+      component: Sub4_3,
+    },
+    {
+      path: "/heading4/sub4-4",
+      component: Sub4_4,
+    },
+    {
+      path: "/heading4/sub4-5",
+      component: Sub4_5,
+    },
 
     {
-      path: "/ark-notes/general-notes",
-      component: ARK_notes_General_notes,
+      path: "/heading5/sub5-1",
+      component: Sub5_1,
     },
     {
-      path: "/ark-notes/elpo",
-      component: ARK_notes_ELPO,
+      path: "/heading5/sub5-2",
+      component: Sub5_2,
     },
     {
-      path: "/ele/general-notes",
-      component: ELE_General_notes,
+      path: "/heading5/sub5-3",
+      component: Sub5_3,
     },
     {
-      path: "/kph/general-notes",
-      component: KPH_General_notes,
+      path: "/heading5/sub5-4",
+      component: Sub5_4,
     },
+    {
+      path: "/heading5/sub5-5",
+      component: Sub5_5,
+    },
+
+    {
+      path: "/heading6/sub6-1",
+      component: Sub6_1,
+    },
+    {
+      path: "/heading6/sub6-2",
+      component: Sub6_2,
+    },
+    {
+      path: "/heading6/sub6-3",
+      component: Sub6_3,
+    },
+    {
+      path: "/heading6/sub6-4",
+      component: Sub6_4,
+    },
+    {
+      path: "/heading6/sub6-5",
+      component: Sub6_5,
+    },
+
+ 
     {
       path: "/rei/general-notes",
       component: REI_General_notes,

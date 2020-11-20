@@ -69,14 +69,14 @@
                 </router-link>
               </li>
               <li v-if="this.sub2_5 != '0'">
-                <router-link to="/heading1/sub2-5">
+                <router-link to="/heading2/sub2-5">
                   <span id="sub2_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown" v-if="this.heading3 != '0'">
+          <li class="changeBackgroundPointer" v-if="this.heading3 != '0'">
             <a
               id="heading3"
               class="changeLiBackgroundColor"
@@ -98,68 +98,122 @@
                 </router-link>
               </li>
               <li v-if="this.sub3_4 != '0'">
-                <router-link to="/heading2/sub3-4">
+                <router-link to="/heading3/sub3-4">
                   <span id="sub3_4"></span>
                 </router-link>
               </li>
               <li v-if="this.sub3_5 != '0'">
-                <router-link to="/heading1/sub3-5">
+                <router-link to="/heading3/sub3-5">
                   <span id="sub3_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
 
-         
-
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer" v-if="this.heading4 != '0'">
             <a
+              id="heading4"
               class="changeLiBackgroundColor"
-              >02 - ARK notes
-            </a>
+            ></a>
             <ul class="ul_submenu">
-              <li>
-                <router-link to="/ark-notes/general-notes">
-                  0_0 - General notes
+              <li v-if="this.sub4_1 != '0'">
+                <router-link to="/heading4/sub4-1">
+                  <span id="sub4_1"></span>
                 </router-link>
               </li>
-              <li>
-                <router-link to="/ark-notes/elpo">
-                  0_1 - ELPO
+              <li v-if="this.sub4_2 != '0'">
+                <router-link to="/heading4/sub4-2">
+                  <span id="sub4_2"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub4_3 != '0'">
+                <router-link to="/heading4/sub4-3">
+                  <span id="sub4_3"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub4_4 != '0'">
+                <router-link to="/heading4/sub4-4">
+                  <span id="sub4_4"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub4_5 != '0'">
+                <router-link to="/heading4/sub4-5">
+                  <span id="sub4_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer" v-if="this.heading5 != '0'">
             <a
+              id="heading5"
               class="changeLiBackgroundColor"
-            >
-              03 - ELE (subcontractor Elements)
-            </a>
+            ></a>
             <ul class="ul_submenu">
-              <li>
-                <router-link to="/ele/general-notes">
-                  0_0 - General notes
+              <li v-if="this.sub5_1 != '0'">
+                <router-link to="/heading5/sub5-1">
+                  <span id="sub5_1"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub5_2 != '0'">
+                <router-link to="/heading5/sub5-2">
+                  <span id="sub5_2"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub5_3 != '0'">
+                <router-link to="/heading5/sub5-3">
+                  <span id="sub5_3"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub5_4 != '0'">
+                <router-link to="/heading5/sub5-4">
+                  <span id="sub5_4"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub5_5 != '0'">
+                <router-link to="/heading5/sub5-5">
+                  <span id="sub5_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer" v-if="this.heading6 != '0'">
             <a
+              id="heading6"
               class="changeLiBackgroundColor"
-            >
-              04 - KPH prefabricated bathrooms
-            </a>
+            ></a>
             <ul class="ul_submenu">
-              <li>
-                <router-link to="/kph/general-notes">
-                  0_0 - General notes
+              <li v-if="this.sub6_1 != '0'">
+                <router-link to="/heading6/sub6-1">
+                  <span id="sub6_1"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub6_2 != '0'">
+                <router-link to="/heading6/sub6-2">
+                  <span id="sub5_2"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub6_3 != '0'">
+                <router-link to="/heading6/sub6-3">
+                  <span id="sub6_3"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub6_4 != '0'">
+                <router-link to="/heading6/sub6-4">
+                  <span id="sub6_4"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub6_5 != '0'">
+                <router-link to="/heading6/sub6-5">
+                  <span id="sub6_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
+
+     
+
 
           <li class="changeBackgroundPointer ">
             <a
@@ -497,6 +551,27 @@ export default {
       sub3_3: "1",
       sub3_4: "1",
       sub3_5: "1",
+           
+      heading4: "1",
+      sub4_1: "1",
+      sub4_2: "1",
+      sub4_3: "1",
+      sub4_4: "1",
+      sub4_5: "1",
+           
+      heading5: "1",
+      sub5_1: "1",
+      sub5_2: "1",
+      sub5_3: "1",
+      sub5_4: "1",
+      sub5_5: "1",
+           
+      heading6: "1",
+      sub6_1: "1",
+      sub6_2: "1",
+      sub6_3: "1",
+      sub6_4: "1",
+      sub6_5: "1",
     };
   },
   mounted() {
@@ -550,6 +625,48 @@ $('li a').click(function(e) {
     document.getElementById("sub3_3").innerHTML = this.sub3_3;
     document.getElementById("sub3_4").innerHTML = this.sub3_4;
     document.getElementById("sub3_5").innerHTML = this.sub3_5;
+
+    this.heading4 = json.heading4;
+    this.sub4_1 = json.sub4_1;
+    this.sub4_2 = json.sub4_2;
+    this.sub4_3 = json.sub4_3;
+    this.sub4_4 = json.sub4_4;
+    this.sub4_5 = json.sub4_5;
+
+    document.getElementById("heading4").innerHTML = this.heading4;
+    document.getElementById("sub4_1").innerHTML = this.sub4_1;
+    document.getElementById("sub4_2").innerHTML = this.sub4_2;
+    document.getElementById("sub4_3").innerHTML = this.sub4_3;
+    document.getElementById("sub4_4").innerHTML = this.sub4_4;
+    document.getElementById("sub4_5").innerHTML = this.sub4_5;
+
+    this.heading5 = json.heading5;
+    this.sub5_1 = json.sub5_1;
+    this.sub5_2 = json.sub5_2;
+    this.sub5_3 = json.sub5_3;
+    this.sub5_4 = json.sub5_4;
+    this.sub5_5 = json.sub5_5;
+
+    document.getElementById("heading5").innerHTML = this.heading5;
+    document.getElementById("sub5_1").innerHTML = this.sub5_1;
+    document.getElementById("sub5_2").innerHTML = this.sub5_2;
+    document.getElementById("sub5_3").innerHTML = this.sub5_3;
+    document.getElementById("sub5_4").innerHTML = this.sub5_4;
+    document.getElementById("sub5_5").innerHTML = this.sub5_5;
+
+    this.heading6 = json.heading6;
+    this.sub6_1 = json.sub6_1;
+    this.sub6_2 = json.sub6_2;
+    this.sub6_3 = json.sub6_3;
+    this.sub6_4 = json.sub6_4;
+    this.sub6_5 = json.sub6_5;
+
+    document.getElementById("heading6").innerHTML = this.heading6;
+    document.getElementById("sub6_1").innerHTML = this.sub6_1;
+    document.getElementById("sub6_2").innerHTML = this.sub6_2;
+    document.getElementById("sub6_3").innerHTML = this.sub6_3;
+    document.getElementById("sub6_4").innerHTML = this.sub6_4;
+    document.getElementById("sub6_5").innerHTML = this.sub6_5;
 
   },
   methods: {},

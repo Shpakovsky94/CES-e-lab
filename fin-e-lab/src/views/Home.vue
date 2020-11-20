@@ -8,12 +8,12 @@
       <div class="left">
         <ul>
 
-          <li class="changeBackgroundPointer dropdown" v-if="this.heading1 != '0'">
-            <span
+          <li class="changeBackgroundPointer " v-if="this.heading1 != '0'">
+            <a
               id="heading1"
               class="changeLiBackgroundColor"
-            ></span>
-            <ul>
+            ></a>
+            <ul class="ul_submenu">
               <li v-if="this.sub1_1 != '0'">
                 <router-link to="/heading1/sub1-1">
                   <span id="sub1_1"></span>
@@ -42,12 +42,12 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown" v-if="this.heading2 != '0'">
-            <span
+          <li class="changeBackgroundPointer" v-if="this.heading2 != '0'">
+            <a
               id="heading2"
               class="changeLiBackgroundColor"
-            ></span>
-            <ul>
+            ></a>
+            <ul class="ul_submenu">
               <li v-if="this.sub2_1 != '0'">
                 <router-link to="/heading2/sub2-1">
                   <span id="sub2_1"></span>
@@ -77,11 +77,11 @@
           </li>
 
           <li class="changeBackgroundPointer dropdown" v-if="this.heading3 != '0'">
-            <span
+            <a
               id="heading3"
               class="changeLiBackgroundColor"
-            ></span>
-            <ul>
+            ></a>
+            <ul class="ul_submenu">
               <li v-if="this.sub3_1 != '0'">
                 <router-link to="/heading3/sub3-1">
                   <span id="sub3_1"></span>
@@ -117,8 +117,7 @@
               class="changeLiBackgroundColor"
               >02 - ARK notes
             </a>
-
-            <ul>
+            <ul class="ul_submenu">
               <li>
                 <router-link to="/ark-notes/general-notes">
                   0_0 - General notes
@@ -131,13 +130,14 @@
               </li>
             </ul>
           </li>
-          <li class="changeBackgroundPointer dropdown">
+
+          <li class="changeBackgroundPointer">
             <a
               class="changeLiBackgroundColor"
             >
               03 - ELE (subcontractor Elements)
             </a>
-            <ul>
+            <ul class="ul_submenu">
               <li>
                 <router-link to="/ele/general-notes">
                   0_0 - General notes
@@ -146,13 +146,13 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer">
             <a
               class="changeLiBackgroundColor"
             >
               04 - KPH prefabricated bathrooms
             </a>
-            <ul>
+            <ul class="ul_submenu">
               <li>
                 <router-link to="/kph/general-notes">
                   0_0 - General notes
@@ -161,7 +161,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
             >
@@ -176,7 +176,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
               >06 - SAH notes
@@ -190,7 +190,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
             >
@@ -205,7 +205,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
             >
@@ -220,7 +220,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
               >09 - V- elements
@@ -339,7 +339,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
             >
@@ -395,7 +395,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
               >11 - O- elements
@@ -414,7 +414,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
             >
@@ -429,7 +429,7 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer dropdown">
+          <li class="changeBackgroundPointer ">
             <a
               class="changeLiBackgroundColor"
               >14 - Drawings
@@ -501,9 +501,11 @@ export default {
   },
   mounted() {
     
-$('li.dropdown').click(function() {
-   $(this).find('ul').show();
+$('li a').click(function(e) {
+  e.preventDefault();
+  $(this).closest("li").find("[class^='ul_submenu']").slideToggle();
 });
+
 
     let json = require("../../side-bar-structure-names.json");
 
@@ -637,9 +639,10 @@ li {
   color: #3f3f3f;
   padding-top: 5px;
 }
+.ul_submenu{
+  display : none;
 
-li.dropdown ul {
-display : none;
 }
+
 
 </style>

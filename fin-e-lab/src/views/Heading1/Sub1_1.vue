@@ -1,7 +1,7 @@
 <template>
   <div>
     <iframe
-      src="https://docs.google.com/spreadsheets/d/1n0HRxKZKt8MNMswntAPchgzX8xM2iOif-PjegdZi6lE/edit#gid=1411289540"
+      src="https://docs.google.com/spreadsheets/d/1NFV36uGZhtiGsXHU0VvsQOuRemGuG5oOdDmTAkF8bys/edit?rm=minimal#gid=0"
       width="100%"
       height="850px"
       frameborder="0"

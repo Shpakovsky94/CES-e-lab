@@ -7,85 +7,117 @@
     <div class="grid-container">
       <div class="left">
         <ul>
-          <li class="changeBackgroundPointer">
-            <a
-              v-on:click="
-                isHiddenDepartmentOverview = !isHiddenDepartmentOverview
-              "
-              class="changeLiBackgroundColor"
-            >
-              Department overview
-            </a>
-            <ul v-if="!isHiddenDepartmentOverview">
 
-              <li>
-                <router-link to="/fin-department/weekly-report">
-                  CES-Fin Weekly Report
+          <li class="changeBackgroundPointer " v-if="this.heading1 != '0'">
+            <a
+              id="heading1"
+              class="changeLiBackgroundColor"
+            ></a>
+            <ul class="ul_submenu">
+              <li v-if="this.sub1_1 != '0'">
+                <router-link to="/heading1/sub1-1">
+                  <span id="sub1_1"></span>
                 </router-link>
               </li>
-              <li>
-                <router-link to="/fin-department/ressurside-table">
-                  CES-Fin Ressurside table
+              <li v-if="this.sub1_2 != '0'">
+                <router-link to="/heading1/sub1-2">
+                  <span id="sub1_2"></span>
                 </router-link>
               </li>
-              <li>
-                <router-link to="/fin-department/beebole">
-                  Beebole
+              <li v-if="this.sub1_3 != '0'">
+                <router-link to="/heading1/sub1-3">
+                  <span id="sub1_3"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub1_4 != '0'">
+                <router-link to="/heading1/sub1-4">
+                  <span id="sub1_4"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub1_5 != '0'">
+                <router-link to="/heading1/sub1-5">
+                  <span id="sub1_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer" v-if="this.heading2 != '0'">
             <a
-              v-on:click="isHiddenStartingTheModel = !isHiddenStartingTheModel"
+              id="heading2"
               class="changeLiBackgroundColor"
-            >
-              00 - Starting the model
-            </a>
-            <ul v-if="!isHiddenStartingTheModel">
-              <li>
-                <router-link to="/starting/how-to-start-the-model">
-                  1_0 - How to start the model
+            ></a>
+            <ul class="ul_submenu">
+              <li v-if="this.sub2_1 != '0'">
+                <router-link to="/heading2/sub2-1">
+                  <span id="sub2_1"></span>
                 </router-link>
               </li>
-              <li>
-                <router-link to="/starting/par-det">
-                  2_0 - ParDET
+              <li v-if="this.sub2_2 != '0'">
+                <router-link to="/heading2/sub2-2">
+                  <span id="sub2_2"></span>
                 </router-link>
               </li>
-              <li>
-                <router-link to="/starting/sewatek-list">
-                  3_0 - Sewatek list
+              <li v-if="this.sub2_3 != '0'">
+                <router-link to="/heading2/sub2-3">
+                  <span id="sub2_3"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub2_4 != '0'">
+                <router-link to="/heading2/sub2-4">
+                  <span id="sub2_4"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub2_5 != '0'">
+                <router-link to="/heading1/sub2-5">
+                  <span id="sub2_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer dropdown" v-if="this.heading3 != '0'">
             <a
-              v-on:click="isHiddenRakNotes = !isHiddenRakNotes"
+              id="heading3"
               class="changeLiBackgroundColor"
-              >01 - RAK notes</a
-            >
-
-            <ul v-if="!isHiddenRakNotes">
-              <li>
-                <router-link to="/rak-notes/general-notes">
-                  0_0 - General notes
+            ></a>
+            <ul class="ul_submenu">
+              <li v-if="this.sub3_1 != '0'">
+                <router-link to="/heading3/sub3-1">
+                  <span id="sub3_1"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub3_2 != '0'">
+                <router-link to="/heading3/sub3-2">
+                  <span id="sub3_2"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub3_3 != '0'">
+                <router-link to="/heading3/sub3-3">
+                  <span id="sub3_3"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub3_4 != '0'">
+                <router-link to="/heading2/sub3-4">
+                  <span id="sub3_4"></span>
+                </router-link>
+              </li>
+              <li v-if="this.sub3_5 != '0'">
+                <router-link to="/heading1/sub3-5">
+                  <span id="sub3_5"></span>
                 </router-link>
               </li>
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+         
+
+          <li class="changeBackgroundPointer dropdown">
             <a
-              v-on:click="isHiddenArkNotes = !isHiddenArkNotes"
               class="changeLiBackgroundColor"
               >02 - ARK notes
             </a>
-
-            <ul v-if="!isHiddenArkNotes">
+            <ul class="ul_submenu">
               <li>
                 <router-link to="/ark-notes/general-notes">
                   0_0 - General notes
@@ -98,14 +130,14 @@
               </li>
             </ul>
           </li>
+
           <li class="changeBackgroundPointer">
             <a
-              v-on:click="isHiddenEle = !isHiddenEle"
               class="changeLiBackgroundColor"
             >
               03 - ELE (subcontractor Elements)
             </a>
-            <ul v-if="!isHiddenEle">
+            <ul class="ul_submenu">
               <li>
                 <router-link to="/ele/general-notes">
                   0_0 - General notes
@@ -116,12 +148,11 @@
 
           <li class="changeBackgroundPointer">
             <a
-              v-on:click="isHiddenKPH = !isHiddenKPH"
               class="changeLiBackgroundColor"
             >
               04 - KPH prefabricated bathrooms
             </a>
-            <ul v-if="!isHiddenKPH">
+            <ul class="ul_submenu">
               <li>
                 <router-link to="/kph/general-notes">
                   0_0 - General notes
@@ -130,14 +161,13 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenRei = !isHiddenRei"
               class="changeLiBackgroundColor"
             >
               05 - REI notes
             </a>
-            <ul v-if="!isHiddenRei">
+            <ul>
               <li>
                 <router-link to="/rei/general-notes">
                   0_0 - General notes
@@ -146,13 +176,12 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenSah = !isHiddenSah"
               class="changeLiBackgroundColor"
               >06 - SAH notes
             </a>
-            <ul v-if="!isHiddenSah">
+            <ul>
               <li>
                 <router-link to="/sah/general-notes">
                   0_0 - General notes
@@ -161,14 +190,13 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenPor = !isHiddenPor"
               class="changeLiBackgroundColor"
             >
               07 - POR Porras (Stairs)
             </a>
-            <ul v-if="!isHiddenPor">
+            <ul>
               <li>
                 <router-link to="/por/general-notes">
                   0_0 - General notes
@@ -177,14 +205,13 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenVss = !isHiddenVss"
               class="changeLiBackgroundColor"
             >
               08 - VSS Väestönsuoja (Bomb Shelter)
             </a>
-            <ul v-if="!isHiddenVss">
+            <ul>
               <li>
                 <router-link to="/vss/general-notes">
                   0_0 - General notes
@@ -193,13 +220,12 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenVSection = !isHiddenVSection"
               class="changeLiBackgroundColor"
               >09 - V- elements
             </a>
-            <ul v-if="!isHiddenVSection">
+            <ul>
               <li>
                 <router-link to="/v-element/standard-operating-procedure">
                   Standard operating procedure
@@ -313,15 +339,14 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenLSection = !isHiddenLSection"
               class="changeLiBackgroundColor"
             >
               10 - L- elements
             </a>
 
-            <ul v-if="!isHiddenLSection">
+            <ul>
               <li>
                 <router-link to="/l-element/standard-operating-procedure">
                   Standard operating procedure
@@ -370,13 +395,12 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenOSection = !isHiddenOSection"
               class="changeLiBackgroundColor"
               >11 - O- elements
             </a>
-            <ul v-if="!isHiddenOSection">
+            <ul>
               <li>
                 <router-link to="/o-element/standard-operating-procedure">
                   Standard operating procedure
@@ -390,14 +414,13 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenHKU_HY_HA = !isHiddenHKU_HY_HA"
               class="changeLiBackgroundColor"
             >
               12 - HKU/HY/HA- elements
             </a>
-            <ul v-if="!isHiddenHKU_HY_HA">
+            <ul>
               <li>
                 <router-link to="/hku-hy-ha/general-notes">
                   0_0 - General notes
@@ -406,202 +429,19 @@
             </ul>
           </li>
 
-          <li class="changeBackgroundPointer">
+          <li class="changeBackgroundPointer ">
             <a
-              v-on:click="isHiddenComponentDes = !isHiddenComponentDes"
-              class="changeLiBackgroundColor"
-            >
-              13 - Components description
-            </a>
-            <ul v-if="!isHiddenComponentDes">
-              <li>
-                <a
-                  v-on:click="
-                    isHiddenComponentDesValiseina = !isHiddenComponentDesValiseina
-                  "
-                  class="changeLiBackgroundColor"
-                >
-                  3. VÄLISEINÄ (Inner wall)
-                </a>
-                <ul v-if="!isHiddenComponentDesValiseina">
-                  <li>
-                    <a
-                      v-on:click="
-                        isHiddenComponentDesValiseinaRadoitukset = !isHiddenComponentDesValiseinaRadoitukset
-                      "
-                      class="changeLiBackgroundColor"
-                    >
-                      3_3 RAUDOITUKSET
-                    </a>
-                    <ul v-if="!isHiddenComponentDesValiseinaRadoitukset">
-                      <li>
-                        <router-link to="/components/xpar-kutistumisraudoite">
-                          xpar_KUTISTUMISRAUDOITE
-                        </router-link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a
-                      v-on:click="
-                        isHiddenComponentDesValiseinaRei = !isHiddenComponentDesValiseinaRei
-                      "
-                      class="changeLiBackgroundColor"
-                    >
-                      3_4 REIÄT
-                    </a>
-                    <ul v-if="!isHiddenComponentDesValiseinaRei">
-                      <li>
-                        <router-link to="/components/xpar-hanakulma">
-                          xpar_HANAKULMA
-                        </router-link>
-                      </li>
-                      <li>
-                        <router-link to="/components/xpar-iw-ura">
-                          xpar_IW_URA
-                        </router-link>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a
-                  v-on:click="
-                    isHiddenComponentDesSah = !isHiddenComponentDesSah
-                  "
-                  class="changeLiBackgroundColor"
-                >
-                  5. SÄH
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="changeBackgroundPointer">
-            <a
-              v-on:click="isHiddenDrawingSection = !isHiddenDrawingSection"
               class="changeLiBackgroundColor"
               >14 - Drawings
             </a>
-            <ul v-if="!isHiddenDrawingSection">
+            <ul>
               <li>
                 <router-link to="/drawings/revision">
                   Revision
                 </router-link>
               </li>
-
-              <li class="changeBackgroundPointer">
-                <a
-                  v-on:click="
-                    isHiddenGaDrawingSection = !isHiddenGaDrawingSection
-                  "
-                  class="changeLiBackgroundColor"
-                  >GA-
-                </a>
-                <ul v-if="!isHiddenGaDrawingSection">
-                  <a
-                    target="_blank"
-                    href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/Ev3yIcv3cBBAllt9h_zeXycBfKBOIBTxH5HHJzu295AxOA?e=61TW4W"
-                    >Example drawings
-                  </a>
-                  <li>
-                    <router-link to="/drawings/ga-drawings/checklist">
-                      Drawing checklist
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link to="/drawings/ga-drawings/general-notes">
-                      0_0 General notes
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link to="/drawings/ga-drawings/tapit">
-                      0_1 Drawings tapit
-                    </router-link>
-                  </li>
                 </ul>
               </li>
-
-              <li class="changeBackgroundPointer">
-                <a
-                  v-on:click="
-                    isHiddenLDrawingSection = !isHiddenLDrawingSection
-                  "
-                  class="changeLiBackgroundColor"
-                  >L-
-                </a>
-                <ul v-if="!isHiddenLDrawingSection">
-                  <a
-                    target="_blank"
-                    href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/ErNmF5IqAQpHkdO527335YQBoAzu6Hwqtqcv1_ULGhytBw?e=qdbccU"
-                    >Example drawings
-                  </a>
-                  <li>
-                    <router-link to="/drawings/l-drawings/checklist">
-                      Drawing checklist
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link to="/drawings/l-drawings/general-notes">
-                      0_0 General notes
-                    </router-link>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="changeBackgroundPointer">
-                <a
-                  v-on:click="
-                    isHiddenVDrawingSection = !isHiddenVDrawingSection
-                  "
-                  class="changeLiBackgroundColor"
-                  >V-
-                </a>
-                <ul v-if="!isHiddenVDrawingSection">
-                  <a
-                    target="_blank"
-                    href="https://consolis-my.sharepoint.com/:f:/p/oleksandr_shpakovskyi/EkYjuxw9m65OooHwJi8zmL4BbqHj2a75dOQPKjJR0KMQzg?e=PryzE2"
-                    >Example drawings
-                  </a>
-                  <li>
-                    <router-link to="/drawings/v-drawings/checklist">
-                      Drawing checklist
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link to="/drawings/v-drawings/general-notes">
-                      0_0 General notes
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link to="/drawings/v-drawings/drawing-creation">
-                      1_0_1 Drawing Creation
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link
-                      to="/drawings/v-drawings/drawing-vertical-section"
-                    >
-                      1_0_2 Drawing Vertical section
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link
-                      to="/drawings/v-drawings/drawing-horizontal-section"
-                    >
-                      1_0_3 Drawing Horizontal section
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link to="/drawings/v-drawings/drawing-front-view">
-                      1_0_4 Drawing Front view
-                    </router-link>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
         </ul>
       </div>
 
@@ -637,34 +477,82 @@
 export default {
   data() {
     return {
-      isHiddenStartingTheModel: true,
-      isHiddenDepartmentOverview: true,
-      isHiddenRakNotes: true,
-      isHiddenArkNotes: true,
-      isHiddenEle: true,
-      isHiddenKPH: true,
-      isHiddenRei: true,
-      isHiddenSah: true,
-      isHiddenPor: true,
-      isHiddenVss: true,
-      isHiddenVSection: true,
-      isHiddenLSection: true,
-      isHiddenOSection: true,
-      isHiddenHKU_HY_HA: true,
-      isHiddenComponentDes: true,
-      isHiddenComponentDesValiseina: true,
-      isHiddenComponentDesValiseinaRadoitukset: true,
-      isHiddenComponentDesValiseinaRei: true,
-      isHiddenComponentDesSah: true,
-      isHiddenDrawingSection: true,
-      isHiddenGaDrawingSection: true,
-      isHiddenLDrawingSection: true,
-      isHiddenVDrawingSection: true,
+      heading1: "1",
+      sub1_1: "1",
+      sub1_2: "1",
+      sub1_3: "1",
+      sub1_4: "1",
+      sub1_5: "1",
+
+      heading2: "1",
+      sub2_1: "1",
+      sub2_2: "1",
+      sub2_3: "1",
+      sub2_4: "1",
+      sub2_5: "1",
+           
+      heading3: "1",
+      sub3_1: "1",
+      sub3_2: "1",
+      sub3_3: "1",
+      sub3_4: "1",
+      sub3_5: "1",
     };
   },
-  methods: {
-    hide() {},
+  mounted() {
+    
+$('li a').click(function(e) {
+  e.preventDefault();
+  $(this).closest("li").find("[class^='ul_submenu']").slideToggle();
+});
+
+
+    let json = require("../../side-bar-structure-names.json");
+
+    this.heading1 = json.heading1;
+    this.sub1_1 = json.sub1_1;
+    this.sub1_2 = json.sub1_2;
+    this.sub1_3 = json.sub1_3;
+    this.sub1_4 = json.sub1_4;
+    this.sub1_5 = json.sub1_5;
+    
+    document.getElementById("heading1").innerHTML = this.heading1;
+    document.getElementById("sub1_1").innerHTML = this.sub1_1;
+    document.getElementById("sub1_2").innerHTML = this.sub1_2;
+    document.getElementById("sub1_3").innerHTML = this.sub1_3;
+    document.getElementById("sub1_4").innerHTML = this.sub1_4;
+    document.getElementById("sub1_5").innerHTML = this.sub1_5;
+
+    this.heading2 = json.heading2;
+    this.sub2_1 = json.sub2_1;
+    this.sub2_2 = json.sub2_2;
+    this.sub2_3 = json.sub2_3;
+    this.sub2_4 = json.sub2_4;
+    this.sub2_5 = json.sub2_5;
+
+    document.getElementById("heading2").innerHTML = this.heading2;
+    document.getElementById("sub2_1").innerHTML = this.sub2_1;
+    document.getElementById("sub2_2").innerHTML = this.sub2_2;
+    document.getElementById("sub2_3").innerHTML = this.sub2_3;
+    document.getElementById("sub2_4").innerHTML = this.sub2_4;
+    document.getElementById("sub2_5").innerHTML = this.sub2_5;
+
+    this.heading3 = json.heading3;
+    this.sub3_1 = json.sub3_1;
+    this.sub3_2 = json.sub3_2;
+    this.sub3_3 = json.sub3_3;
+    this.sub3_4 = json.sub3_4;
+    this.sub3_5 = json.sub3_5;
+
+    document.getElementById("heading3").innerHTML = this.heading3;
+    document.getElementById("sub3_1").innerHTML = this.sub3_1;
+    document.getElementById("sub3_2").innerHTML = this.sub3_2;
+    document.getElementById("sub3_3").innerHTML = this.sub3_3;
+    document.getElementById("sub3_4").innerHTML = this.sub3_4;
+    document.getElementById("sub3_5").innerHTML = this.sub3_5;
+
   },
+  methods: {},
 };
 </script>
 
@@ -751,4 +639,10 @@ li {
   color: #3f3f3f;
   padding-top: 5px;
 }
+.ul_submenu{
+  display : none;
+
+}
+
+
 </style>

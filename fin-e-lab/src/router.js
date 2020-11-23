@@ -7,90 +7,177 @@ import Sub1_2 from "./views/Heading1/Sub1_2.vue";
 import Sub1_3 from "./views/Heading1/Sub1_3.vue";
 import Sub1_4 from "./views/Heading1/Sub1_4.vue";
 import Sub1_5 from "./views/Heading1/Sub1_5.vue";
+import Sub1_6 from "./views/Heading1/Sub1_6.vue";
+import Sub1_7 from "./views/Heading1/Sub1_7.vue";
+import Sub1_8 from "./views/Heading1/Sub1_8.vue";
+import Sub1_9 from "./views/Heading1/Sub1_9.vue";
+import Sub1_10 from "./views/Heading1/Sub1_10.vue";
 
 import Sub2_1 from "./views/Heading2/Sub2_1.vue";
 import Sub2_2 from "./views/Heading2/Sub2_2.vue";
 import Sub2_3 from "./views/Heading2/Sub2_3.vue";
 import Sub2_4 from "./views/Heading2/Sub2_4.vue";
 import Sub2_5 from "./views/Heading2/Sub2_5.vue";
+import Sub2_6 from "./views/Heading2/Sub2_6.vue";
+import Sub2_7 from "./views/Heading2/Sub2_7.vue";
+import Sub2_8 from "./views/Heading2/Sub2_8.vue";
+import Sub2_9 from "./views/Heading2/Sub2_9.vue";
+import Sub2_10 from "./views/Heading2/Sub2_10.vue";
 
 import Sub3_1 from "./views/Heading3/Sub3_1.vue";
 import Sub3_2 from "./views/Heading3/Sub3_2.vue";
 import Sub3_3 from "./views/Heading3/Sub3_3.vue";
 import Sub3_4 from "./views/Heading3/Sub3_4.vue";
 import Sub3_5 from "./views/Heading3/Sub3_5.vue";
+import Sub3_6 from "./views/Heading3/Sub3_6.vue";
+import Sub3_7 from "./views/Heading3/Sub3_7.vue";
+import Sub3_8 from "./views/Heading3/Sub3_8.vue";
+import Sub3_9 from "./views/Heading3/Sub3_9.vue";
+import Sub3_10 from "./views/Heading3/Sub3_10.vue";
 
 import Sub4_1 from "./views/Heading4/Sub4_1.vue";
 import Sub4_2 from "./views/Heading4/Sub4_2.vue";
 import Sub4_3 from "./views/Heading4/Sub4_3.vue";
 import Sub4_4 from "./views/Heading4/Sub4_4.vue";
 import Sub4_5 from "./views/Heading4/Sub4_5.vue";
+import Sub4_6 from "./views/Heading4/Sub4_6.vue";
+import Sub4_7 from "./views/Heading4/Sub4_7.vue";
+import Sub4_8 from "./views/Heading4/Sub4_8.vue";
+import Sub4_9 from "./views/Heading4/Sub4_9.vue";
+import Sub4_10 from "./views/Heading4/Sub4_10.vue";
 
 import Sub5_1 from "./views/Heading5/Sub5_1.vue";
 import Sub5_2 from "./views/Heading5/Sub5_2.vue";
 import Sub5_3 from "./views/Heading5/Sub5_3.vue";
 import Sub5_4 from "./views/Heading5/Sub5_4.vue";
 import Sub5_5 from "./views/Heading5/Sub5_5.vue";
+import Sub5_6 from "./views/Heading5/Sub5_6.vue";
+import Sub5_7 from "./views/Heading5/Sub5_7.vue";
+import Sub5_8 from "./views/Heading5/Sub5_8.vue";
+import Sub5_9 from "./views/Heading5/Sub5_9.vue";
+import Sub5_10 from "./views/Heading5/Sub5_10.vue";
 
 import Sub6_1 from "./views/Heading6/Sub6_1.vue";
 import Sub6_2 from "./views/Heading6/Sub6_2.vue";
 import Sub6_3 from "./views/Heading6/Sub6_3.vue";
 import Sub6_4 from "./views/Heading6/Sub6_4.vue";
 import Sub6_5 from "./views/Heading6/Sub6_5.vue";
+import Sub6_6 from "./views/Heading6/Sub6_6.vue";
+import Sub6_7 from "./views/Heading6/Sub6_7.vue";
+import Sub6_8 from "./views/Heading6/Sub6_8.vue";
+import Sub6_9 from "./views/Heading6/Sub6_9.vue";
+import Sub6_10 from "./views/Heading6/Sub6_10.vue";
 
-import REI_General_notes from "./views/5_REI_notes/0_General_notes.vue";
-import SAH_General_notes from "./views/6_SAH_notes/0_General_notes.vue";
-import POR_General_notes from "./views/7_POR_Porras/0_General_notes.vue";
-import VSS_General_notes from "./views/8_VSS/0_General_notes.vue";
-import V_Standard_operating_procedure from "./views/9_V_elements/Standard_operating_procedure.vue";
-import V_General_notes from "./views/9_V_elements/0_General_notes.vue";
-import V_General_notes_Cassette from "./views/9_V_elements/0_0_General_notes_Cassette_casting.vue";
-import V_General_notes_Table from "./views/9_V_elements/0_0_General_notes_Table_casting.vue";
-import V_Modeling_General_notes from "./views/9_V_elements/1_0_Modeling_General_notes.vue";
-import V_Modeling_Wall_Devision from "./views/9_V_elements/1_1_1_Modeling_walls_devision.vue";
-import V_Modeling_Shape from "./views/9_V_elements/1_1_Modeling_Shape.vue";
-import V_Modeling_Component from "./views/9_V_elements/1_2_Modeling_Component.vue";
-import V_Modeling_Nostolenkit from "./views/9_V_elements/1_3_Modeling_NOSTOLENKIT.vue";
-import V_Modeling_Kaideholkit from "./views/9_V_elements/1_4_Modeling_KAIDEHOLKIT.vue";
-import V_Modeling_Tapit from "./views/9_V_elements/1_5_Modeling_TAPIT.vue";
-import V_Modeling_Ura from "./views/9_V_elements/1_6_Modeling_URA.vue";
-import V_Modeling_Avk from "./views/9_V_elements/1_7_Modeling_AVK.vue";
-import V_Modeling_Painepesu from "./views/9_V_elements/1_8_Modeling_PAINEPESU.vue";
-import V_Modeling_Vemo from "./views/9_V_elements/1_9_Modeling_VEMO.vue";
-import V_Modeling_HK_HA_HY from "./views/9_V_elements/1_10_Modeling_HK_HA_HY.vue";
-import V_Modeling_Lipa from "./views/9_V_elements/1_11_Modeling_LIPPA.vue";
-import V_Calculation from "./views/9_V_elements/2_Calculation.vue";
-import V_Reinforcing from "./views/9_V_elements/3_Reinforcing.vue";
-import V_Reika from "./views/9_V_elements/4_REIKA_Openings_task.vue";
-import V_Sewatek from "./views/9_V_elements/5_SEWATEK.vue";
-import V_Sah from "./views/9_V_elements/6_SÄH_Electricity.vue";
-import L_Standard_operating_procedure from "./views/10_L_elements/Standard_operating_procedure.vue";
-import L_General_notes from "./views/10_L_elements/0_General_notes.vue";
-import L_Modeling_General_notes from "./views/10_L_elements/1_0_Modeling_General_notes.vue";
-import L_Modeling_Slabs_Devision from "./views/10_L_elements/1_1_1_Modeling_slabs_division.vue";
-import L_Modeling_Shape from "./views/10_L_elements/1_1_Modeling_Shape";
-import L_Modeling_Nostolenkit from "./views/10_L_elements/1_2_Modeling_NOSTOLENKIT.vue";
-import L_Calculation from "./views/10_L_elements/2_Calculation.vue";
-import L_Reinforcing from "./views/10_L_elements/3_Reinforcing.vue";
-import L_Reika from "./views/10_L_elements/4_REIKA_Openings_task.vue";
-import O_General_notes from "./views/11_O_elements/0_General_notes.vue";
-import O_Standard_operating_procedure from "./views/11_O_elements/Standard_operating_procedure.vue";
-import HKU_HY_HA_General_notes from "./views/12_HKU_HY_HA_elements/0_General_notes.vue";
-import Component_xpar_KUTISTUMISRAUDOITE from "./views/13_Components_Description/3_VALISEINA/3_3_RAUDOITUKSET/xpar_KUTISTUMISRAUDOITE.vue";
-import Component_xpar_HANAKULMA from "./views/13_Components_Description/3_VALISEINA/3_4_REIAT/xpar_HANAKULMA.vue";
-import Component_xpar_IW_URA from "./views/13_Components_Description/3_VALISEINA/3_4_REIAT/xpar_IW_URA.vue";
-import Drawings_Revision from "./views/14_Drawings/Revision.vue";
-import Drawings_Ga_General_notes from "./views/14_Drawings/GA/0_General_notes.vue";
-import Drawings_Ga_Drawings_tapit from "./views/14_Drawings/GA/1_Drawings_Tapit.vue";
-import Drawings_Ga_Checklist from "./views/14_Drawings/GA/Drawing_checklist.vue";
-import Drawings_L_General_notes from "./views/14_Drawings/L/0_General_notes.vue";
-import Drawings_L_Checklist from "./views/14_Drawings/L/Drawing_checklist.vue";
-import Drawings_V_General_notes from "./views/14_Drawings/V/0_General_notes.vue";
-import Drawings_V_Drawing_Creation from "./views/14_Drawings/V/1_0_1_Drawing_Creation.vue";
-import Drawings_V_Vertical_Section from "./views/14_Drawings/V/1_0_2_Drawing_Vertical_section.vue";
-import Drawings_V_Horizontal_Section from "./views/14_Drawings/V/1_0_3_Drawing_Horizontal_section.vue";
-import Drawings_V_Front_View from "./views/14_Drawings/V/1_0_4_Drawing_Front_view.vue";
-import Drawings_V_Checklist from "./views/14_Drawings/V/Drawing_checklist.vue";
+import Sub7_1 from "./views/Heading7/Sub7_1.vue";
+import Sub7_2 from "./views/Heading7/Sub7_2.vue";
+import Sub7_3 from "./views/Heading7/Sub7_3.vue";
+import Sub7_4 from "./views/Heading7/Sub7_4.vue";
+import Sub7_5 from "./views/Heading7/Sub7_5.vue";
+import Sub7_6 from "./views/Heading7/Sub7_6.vue";
+import Sub7_7 from "./views/Heading7/Sub7_7.vue";
+import Sub7_8 from "./views/Heading7/Sub7_8.vue";
+import Sub7_9 from "./views/Heading7/Sub7_9.vue";
+import Sub7_10 from "./views/Heading7/Sub7_10.vue";
+
+import Sub8_1 from "./views/Heading8/Sub8_1.vue";
+import Sub8_2 from "./views/Heading8/Sub8_2.vue";
+import Sub8_3 from "./views/Heading8/Sub8_3.vue";
+import Sub8_4 from "./views/Heading8/Sub8_4.vue";
+import Sub8_5 from "./views/Heading8/Sub8_5.vue";
+import Sub8_6 from "./views/Heading8/Sub8_6.vue";
+import Sub8_7 from "./views/Heading8/Sub8_7.vue";
+import Sub8_8 from "./views/Heading8/Sub8_8.vue";
+import Sub8_9 from "./views/Heading8/Sub8_9.vue";
+import Sub8_10 from "./views/Heading8/Sub8_10.vue";
+
+import Sub9_1 from "./views/Heading9/Sub9_1.vue";
+import Sub9_2 from "./views/Heading9/Sub9_2.vue";
+import Sub9_3 from "./views/Heading9/Sub9_3.vue";
+import Sub9_4 from "./views/Heading9/Sub9_4.vue";
+import Sub9_5 from "./views/Heading9/Sub9_5.vue";
+import Sub9_6 from "./views/Heading9/Sub9_6.vue";
+import Sub9_7 from "./views/Heading9/Sub9_7.vue";
+import Sub9_8 from "./views/Heading9/Sub9_8.vue";
+import Sub9_9 from "./views/Heading9/Sub9_9.vue";
+import Sub9_10 from "./views/Heading9/Sub9_10.vue";
+
+import Sub10_1 from "./views/Heading10/Sub10_1.vue";
+import Sub10_2 from "./views/Heading10/Sub10_2.vue";
+import Sub10_3 from "./views/Heading10/Sub10_3.vue";
+import Sub10_4 from "./views/Heading10/Sub10_4.vue";
+import Sub10_5 from "./views/Heading10/Sub10_5.vue";
+import Sub10_6 from "./views/Heading10/Sub10_6.vue";
+import Sub10_7 from "./views/Heading10/Sub10_7.vue";
+import Sub10_8 from "./views/Heading10/Sub10_8.vue";
+import Sub10_9 from "./views/Heading10/Sub10_9.vue";
+import Sub10_10 from "./views/Heading10/Sub10_10.vue";
+
+import Sub11_1 from "./views/Heading11/Sub11_1.vue";
+import Sub11_2 from "./views/Heading11/Sub11_2.vue";
+import Sub11_3 from "./views/Heading11/Sub11_3.vue";
+import Sub11_4 from "./views/Heading11/Sub11_4.vue";
+import Sub11_5 from "./views/Heading11/Sub11_5.vue";
+import Sub11_6 from "./views/Heading11/Sub11_6.vue";
+import Sub11_7 from "./views/Heading11/Sub11_7.vue";
+import Sub11_8 from "./views/Heading11/Sub11_8.vue";
+import Sub11_9 from "./views/Heading11/Sub11_9.vue";
+import Sub11_10 from "./views/Heading11/Sub11_10.vue";
+import Sub11_11 from "./views/Heading11/Sub11_11.vue";
+import Sub11_12 from "./views/Heading11/Sub11_12.vue";
+import Sub11_13 from "./views/Heading11/Sub11_13.vue";
+import Sub11_14 from "./views/Heading11/Sub11_14.vue";
+import Sub11_15 from "./views/Heading11/Sub11_15.vue";
+import Sub11_16 from "./views/Heading11/Sub11_16.vue";
+import Sub11_17 from "./views/Heading11/Sub11_17.vue";
+import Sub11_18 from "./views/Heading11/Sub11_18.vue";
+import Sub11_19 from "./views/Heading11/Sub11_19.vue";
+import Sub11_20 from "./views/Heading11/Sub11_20.vue";
+
+import Sub12_1 from "./views/Heading12/Sub12_1.vue";
+import Sub12_2 from "./views/Heading12/Sub12_2.vue";
+import Sub12_3 from "./views/Heading12/Sub12_3.vue";
+import Sub12_4 from "./views/Heading12/Sub12_4.vue";
+import Sub12_5 from "./views/Heading12/Sub12_5.vue";
+import Sub12_6 from "./views/Heading12/Sub12_6.vue";
+import Sub12_7 from "./views/Heading12/Sub12_7.vue";
+import Sub12_8 from "./views/Heading12/Sub12_8.vue";
+import Sub12_9 from "./views/Heading12/Sub12_9.vue";
+import Sub12_10 from "./views/Heading12/Sub12_10.vue";
+
+import Sub13_1 from "./views/Heading13/Sub13_1.vue";
+import Sub13_2 from "./views/Heading13/Sub13_2.vue";
+import Sub13_3 from "./views/Heading13/Sub13_3.vue";
+import Sub13_4 from "./views/Heading13/Sub13_4.vue";
+import Sub13_5 from "./views/Heading13/Sub13_5.vue";
+import Sub13_6 from "./views/Heading13/Sub13_6.vue";
+import Sub13_7 from "./views/Heading13/Sub13_7.vue";
+import Sub13_8 from "./views/Heading13/Sub13_8.vue";
+import Sub13_9 from "./views/Heading13/Sub13_9.vue";
+import Sub13_10 from "./views/Heading13/Sub13_10.vue";
+
+import Sub14_1 from "./views/Heading14/Sub14_1.vue";
+import Sub14_2 from "./views/Heading14/Sub14_2.vue";
+import Sub14_3 from "./views/Heading14/Sub14_3.vue";
+import Sub14_4 from "./views/Heading14/Sub14_4.vue";
+import Sub14_5 from "./views/Heading14/Sub14_5.vue";
+import Sub14_6 from "./views/Heading14/Sub14_6.vue";
+import Sub14_7 from "./views/Heading14/Sub14_7.vue";
+import Sub14_8 from "./views/Heading14/Sub14_8.vue";
+import Sub14_9 from "./views/Heading14/Sub14_9.vue";
+import Sub14_10 from "./views/Heading14/Sub14_10.vue";
+
+import Sub15_1 from "./views/Heading15/Sub15_1.vue";
+import Sub15_2 from "./views/Heading15/Sub15_2.vue";
+import Sub15_3 from "./views/Heading15/Sub15_3.vue";
+import Sub15_4 from "./views/Heading15/Sub15_4.vue";
+import Sub15_5 from "./views/Heading15/Sub15_5.vue";
+import Sub15_6 from "./views/Heading15/Sub15_6.vue";
+import Sub15_7 from "./views/Heading15/Sub15_7.vue";
+import Sub15_8 from "./views/Heading15/Sub15_8.vue";
+import Sub15_9 from "./views/Heading15/Sub15_9.vue";
+import Sub15_10 from "./views/Heading15/Sub15_10.vue";
+
+
 
 Vue.use(Router);
 
@@ -121,6 +208,26 @@ export const router = new Router({
       path: "/heading1/sub1-5",
       component: Sub1_5,
     },
+    {
+      path: "/heading1/sub1-6",
+      component: Sub1_6,
+    },
+    {
+      path: "/heading1/sub1-7",
+      component: Sub1_7,
+    },
+    {
+      path: "/heading1/sub1-8",
+      component: Sub1_8,
+    },
+    {
+      path: "/heading1/sub1-9",
+      component: Sub1_9,
+    },
+    {
+      path: "/heading1/sub1-10",
+      component: Sub1_10,
+    },
 
     {
       path: "/heading2/sub2-1",
@@ -141,6 +248,26 @@ export const router = new Router({
     {
       path: "/heading2/sub2-5",
       component: Sub2_5,
+    },
+    {
+      path: "/heading2/sub2-6",
+      component: Sub2_6,
+    },
+    {
+      path: "/heading2/sub2-7",
+      component: Sub2_7,
+    },
+    {
+      path: "/heading2/sub2-8",
+      component: Sub2_8,
+    },
+    {
+      path: "/heading2/sub2-9",
+      component: Sub2_9,
+    },
+    {
+      path: "/heading2/sub2-10",
+      component: Sub2_10,
     },
 
     {
@@ -163,6 +290,26 @@ export const router = new Router({
       path: "/heading3/sub3-5",
       component: Sub3_5,
     },
+    {
+      path: "/heading3/sub3-6",
+      component: Sub3_6,
+    },
+    {
+      path: "/heading3/sub3-7",
+      component: Sub3_7,
+    },
+    {
+      path: "/heading3/sub3-8",
+      component: Sub3_8,
+    },
+    {
+      path: "/heading3/sub3-9",
+      component: Sub3_9,
+    },
+    {
+      path: "/heading3/sub3-10",
+      component: Sub3_10,
+    },
 
     {
       path: "/heading4/sub4-1",
@@ -183,6 +330,26 @@ export const router = new Router({
     {
       path: "/heading4/sub4-5",
       component: Sub4_5,
+    },
+    {
+      path: "/heading4/sub4-6",
+      component: Sub4_6,
+    },
+    {
+      path: "/heading4/sub4-7",
+      component: Sub4_7,
+    },
+    {
+      path: "/heading4/sub4-8",
+      component: Sub4_8,
+    },
+    {
+      path: "/heading4/sub4-9",
+      component: Sub4_9,
+    },
+    {
+      path: "/heading4/sub4-10",
+      component: Sub4_10,
     },
 
     {
@@ -205,6 +372,26 @@ export const router = new Router({
       path: "/heading5/sub5-5",
       component: Sub5_5,
     },
+    {
+      path: "/heading5/sub5-6",
+      component: Sub5_6,
+    },
+    {
+      path: "/heading5/sub5-7",
+      component: Sub5_7,
+    },
+    {
+      path: "/heading5/sub5-8",
+      component: Sub5_8,
+    },
+    {
+      path: "/heading5/sub5-9",
+      component: Sub5_9,
+    },
+    {
+      path: "/heading5/sub5-10",
+      component: Sub5_10,
+    },
 
     {
       path: "/heading6/sub6-1",
@@ -226,219 +413,437 @@ export const router = new Router({
       path: "/heading6/sub6-5",
       component: Sub6_5,
     },
+    {
+      path: "/heading6/sub6-6",
+      component: Sub6_6,
+    },
+    {
+      path: "/heading6/sub6-7",
+      component: Sub6_7,
+    },
+    {
+      path: "/heading6/sub6-8",
+      component: Sub6_8,
+    },
+    {
+      path: "/heading6/sub6-9",
+      component: Sub6_9,
+    },
+    {
+      path: "/heading6/sub6-10",
+      component: Sub6_10,
+    },
 
- 
     {
-      path: "/rei/general-notes",
-      component: REI_General_notes,
+      path: "/heading7/sub7-1",
+      component: Sub7_1,
     },
     {
-      path: "/sah/general-notes",
-      component: SAH_General_notes,
+      path: "/heading7/sub7-2",
+      component: Sub7_2,
     },
     {
-      path: "/por/general-notes",
-      component: POR_General_notes,
+      path: "/heading7/sub7-3",
+      component: Sub7_3,
     },
     {
-      path: "/vss/general-notes",
-      component: VSS_General_notes,
+      path: "/heading7/sub7-4",
+      component: Sub7_4,
     },
     {
-      path: "/v-element/general-notes",
-      component: V_General_notes,
+      path: "/heading7/sub7-5",
+      component: Sub7_5,
     },
     {
-      path: "/v-element/general-notes/cassette",
-      component: V_General_notes_Cassette,
+      path: "/heading7/sub7-6",
+      component: Sub7_6,
     },
     {
-      path: "/v-element/general-notes/table",
-      component: V_General_notes_Table,
+      path: "/heading7/sub7-7",
+      component: Sub7_7,
     },
     {
-      path: "/v-element/standard-operating-procedure",
-      component: V_Standard_operating_procedure,
+      path: "/heading7/sub7-8",
+      component: Sub7_8,
     },
     {
-      path: "/v-element/modeling-general-notes",
-      component: V_Modeling_General_notes,
+      path: "/heading7/sub7-9",
+      component: Sub7_9,
     },
     {
-      path: "/v-element/modeling-walls-devision",
-      component: V_Modeling_Wall_Devision,
+      path: "/heading7/sub7-10",
+      component: Sub7_10,
+    },
+
+    {
+      path: "/heading8/sub8-1",
+      component: Sub8_1,
     },
     {
-      path: "/v-element/modeling-shape",
-      component: V_Modeling_Shape,
+      path: "/heading8/sub8-2",
+      component: Sub8_2,
     },
     {
-      path: "/v-element/modeling-components",
-      component: V_Modeling_Component,
+      path: "/heading8/sub8-3",
+      component: Sub8_3,
     },
     {
-      path: "/v-element/modeling-nostolenkit",
-      component: V_Modeling_Nostolenkit,
+      path: "/heading8/sub8-4",
+      component: Sub8_4,
     },
     {
-      path: "/v-element/modeling-kaideholkit",
-      component: V_Modeling_Kaideholkit,
+      path: "/heading8/sub8-5",
+      component: Sub8_5,
     },
     {
-      path: "/v-element/modeling-tapit",
-      component: V_Modeling_Tapit,
+      path: "/heading8/sub8-6",
+      component: Sub8_6,
     },
     {
-      path: "/v-element/modeling-ura",
-      component: V_Modeling_Ura,
+      path: "/heading8/sub8-7",
+      component: Sub8_7,
     },
     {
-      path: "/v-element/modeling-avk",
-      component: V_Modeling_Avk,
+      path: "/heading8/sub8-8",
+      component: Sub8_8,
     },
     {
-      path: "/v-element/modeling-painepesu",
-      component: V_Modeling_Painepesu,
+      path: "/heading8/sub8-9",
+      component: Sub8_9,
     },
     {
-      path: "/v-element/modeling-vemo",
-      component: V_Modeling_Vemo,
+      path: "/heading8/sub8-10",
+      component: Sub8_10,
+    },
+
+    {
+      path: "/heading9/sub9-1",
+      component: Sub9_1,
     },
     {
-      path: "/v-element/modeling-hk-ha-hy",
-      component: V_Modeling_HK_HA_HY,
+      path: "/heading9/sub9-2",
+      component: Sub9_2,
     },
     {
-      path: "/v-element/modeling-lippa",
-      component: V_Modeling_Lipa,
+      path: "/heading9/sub9-3",
+      component: Sub9_3,
     },
     {
-      path: "/v-element/calculation",
-      component: V_Calculation,
+      path: "/heading9/sub9-4",
+      component: Sub9_4,
     },
     {
-      path: "/v-element/reinforcing",
-      component: V_Reinforcing,
+      path: "/heading9/sub9-5",
+      component: Sub9_5,
     },
     {
-      path: "/v-element/reika",
-      component: V_Reika,
+      path: "/heading9/sub9-6",
+      component: Sub9_6,
     },
     {
-      path: "/v-element/sewatek",
-      component: V_Sewatek,
+      path: "/heading9/sub9-7",
+      component: Sub9_7,
     },
     {
-      path: "/v-element/sah",
-      component: V_Sah,
+      path: "/heading9/sub9-8",
+      component: Sub9_8,
     },
     {
-      path: "/l-element/standard-operating-procedure",
-      component: L_Standard_operating_procedure,
+      path: "/heading9/sub9-9",
+      component: Sub9_9,
     },
     {
-      path: "/l-element/general-notes",
-      component: L_General_notes,
+      path: "/heading9/sub9-10",
+      component: Sub9_10,
+    },
+
+    {
+      path: "/heading10/sub10-1",
+      component: Sub10_1,
     },
     {
-      path: "/l-element/modeling-general-notes",
-      component: L_Modeling_General_notes,
+      path: "/heading10/sub10-2",
+      component: Sub10_2,
     },
     {
-      path: "/l-element/modeling-slabs-division",
-      component: L_Modeling_Slabs_Devision,
+      path: "/heading10/sub10-3",
+      component: Sub10_3,
     },
     {
-      path: "/l-element/modeling-shape",
-      component: L_Modeling_Shape,
+      path: "/heading10/sub10-4",
+      component: Sub10_4,
     },
     {
-      path: "/l-element/modeling-nostolenkit",
-      component: L_Modeling_Nostolenkit,
+      path: "/heading10/sub10-5",
+      component: Sub10_5,
     },
     {
-      path: "/l-element/calculation",
-      component: L_Calculation,
+      path: "/heading10/sub10-6",
+      component: Sub10_6,
     },
     {
-      path: "/l-element/reinforcing",
-      component: L_Reinforcing,
+      path: "/heading10/sub10-7",
+      component: Sub10_7,
     },
     {
-      path: "/l-element/rei",
-      component: L_Reika ,
+      path: "/heading10/sub10-8",
+      component: Sub10_8,
     },
     {
-      path: "/o-element/general-notes",
-      component: O_General_notes,
+      path: "/heading10/sub10-9",
+      component: Sub10_9,
     },
     {
-      path: "/o-element/standard-operating-procedure",
-      component: O_Standard_operating_procedure,
+      path: "/heading10/sub10-10",
+      component: Sub10_10,
+    },
+
+    {
+      path: "/heading11/sub11-1",
+      component: Sub11_1,
     },
     {
-      path: "/hku-hy-ha/general-notes",
-      component: HKU_HY_HA_General_notes,
+      path: "/heading11/sub11-2",
+      component: Sub11_2,
     },
     {
-      path: "/components/xpar-kutistumisraudoite",
-      component: Component_xpar_KUTISTUMISRAUDOITE,
+      path: "/heading11/sub11-3",
+      component: Sub11_3,
     },
     {
-      path: "/components/xpar-hanakulma",
-      component: Component_xpar_HANAKULMA,
+      path: "/heading11/sub11-4",
+      component: Sub11_4,
     },
     {
-      path: "/components/xpar-iw-ura",
-      component: Component_xpar_IW_URA,
+      path: "/heading11/sub11-5",
+      component: Sub11_5,
     },
     {
-      path: "/drawings/revision",
-      component: Drawings_Revision,
+      path: "/heading11/sub11-6",
+      component: Sub11_6,
     },
     {
-      path: "/drawings/ga-drawings/general-notes",
-      component: Drawings_Ga_General_notes,
+      path: "/heading11/sub11-7",
+      component: Sub11_7,
     },
     {
-      path: "/drawings/ga-drawings/tapit",
-      component: Drawings_Ga_Drawings_tapit,
+      path: "/heading11/sub11-8",
+      component: Sub11_8,
     },
     {
-      path: "/drawings/ga-drawings/checklist",
-      component: Drawings_Ga_Checklist,
+      path: "/heading11/sub11-9",
+      component: Sub11_9,
     },
     {
-      path: "/drawings/l-drawings/general-notes",
-      component: Drawings_L_General_notes,
+      path: "/heading11/sub11-10",
+      component: Sub11_10,
     },
     {
-      path: "/drawings/l-drawings/checklist",
-      component: Drawings_L_Checklist,
+      path: "/heading11/sub11-11",
+      component: Sub11_11,
     },
     {
-      path: "/drawings/v-drawings/general-notes",
-      component: Drawings_V_General_notes,
+      path: "/heading11/sub11-12",
+      component: Sub11_12,
     },
     {
-      path: "/drawings/v-drawings/checklist",
-      component: Drawings_V_Checklist,
+      path: "/heading11/sub11-13",
+      component: Sub11_13,
     },
     {
-      path: "/drawings/v-drawings/drawing-creation",
-      component: Drawings_V_Drawing_Creation,
+      path: "/heading11/sub11-14",
+      component: Sub11_14,
     },
     {
-      path: "/drawings/v-drawings/drawing-vertical-section",
-      component: Drawings_V_Vertical_Section,
+      path: "/heading11/sub11-15",
+      component: Sub11_15,
     },
     {
-      path: "/drawings/v-drawings/drawing-horizontal-section",
-      component: Drawings_V_Horizontal_Section,
+      path: "/heading11/sub11-16",
+      component: Sub11_16,
     },
     {
-      path: "/drawings/v-drawings/drawing-front-view",
-      component: Drawings_V_Front_View,
+      path: "/heading11/sub11-17",
+      component: Sub11_17,
     },
+    {
+      path: "/heading11/sub11-18",
+      component: Sub11_18,
+    },
+    {
+      path: "/heading11/sub11-19",
+      component: Sub11_19,
+    },
+    {
+      path: "/heading11/sub11-20",
+      component: Sub11_20,
+    },
+
+    {
+      path: "/heading12/sub12-1",
+      component: Sub12_1,
+    },
+    {
+      path: "/heading12/sub12-2",
+      component: Sub12_2,
+    },
+    {
+      path: "/heading12/sub12-3",
+      component: Sub12_3,
+    },
+    {
+      path: "/heading12/sub12-4",
+      component: Sub12_4,
+    },
+    {
+      path: "/heading12/sub12-5",
+      component: Sub12_5,
+    },
+    {
+      path: "/heading12/sub12-6",
+      component: Sub12_6,
+    },
+    {
+      path: "/heading12/sub12-7",
+      component: Sub12_7,
+    },
+    {
+      path: "/heading12/sub12-8",
+      component: Sub12_8,
+    },
+    {
+      path: "/heading12/sub12-9",
+      component: Sub12_9,
+    },
+    {
+      path: "/heading12/sub12-10",
+      component: Sub12_10,
+    },
+
+    {
+      path: "/heading13/sub13-1",
+      component: Sub13_1,
+    },
+    {
+      path: "/heading13/sub13-2",
+      component: Sub13_2,
+    },
+    {
+      path: "/heading13/sub13-3",
+      component: Sub13_3,
+    },
+    {
+      path: "/heading13/sub13-4",
+      component: Sub13_4,
+    },
+    {
+      path: "/heading13/sub13-5",
+      component: Sub13_5,
+    },
+    {
+      path: "/heading13/sub13-6",
+      component: Sub13_6,
+    },
+    {
+      path: "/heading13/sub13-7",
+      component: Sub13_7,
+    },
+    {
+      path: "/heading13/sub13-8",
+      component: Sub13_8,
+    },
+    {
+      path: "/heading13/sub13-9",
+      component: Sub13_9,
+    },
+    {
+      path: "/heading13/sub13-10",
+      component: Sub13_10,
+    },
+
+    {
+      path: "/heading14/sub14-1",
+      component: Sub14_1,
+    },
+    {
+      path: "/heading14/sub14-2",
+      component: Sub14_2,
+    },
+    {
+      path: "/heading14/sub14-3",
+      component: Sub14_3,
+    },
+    {
+      path: "/heading14/sub14-4",
+      component: Sub14_4,
+    },
+    {
+      path: "/heading14/sub14-5",
+      component: Sub14_5,
+    },
+    {
+      path: "/heading14/sub14-6",
+      component: Sub14_6,
+    },
+    {
+      path: "/heading14/sub14-7",
+      component: Sub14_7,
+    },
+    {
+      path: "/heading14/sub14-8",
+      component: Sub14_8,
+    },
+    {
+      path: "/heading14/sub14-9",
+      component: Sub14_9,
+    },
+    {
+      path: "/heading14/sub14-10",
+      component: Sub14_10,
+    },
+
+    {
+      path: "/heading15/sub15-1",
+      component: Sub15_1,
+    },
+    {
+      path: "/heading15/sub15-2",
+      component: Sub15_2,
+    },
+    {
+      path: "/heading15/sub15-3",
+      component: Sub15_3,
+    },
+    {
+      path: "/heading15/sub15-4",
+      component: Sub15_4,
+    },
+    {
+      path: "/heading15/sub15-5",
+      component: Sub15_5,
+    },
+    {
+      path: "/heading15/sub15-6",
+      component: Sub15_6,
+    },
+    {
+      path: "/heading15/sub15-7",
+      component: Sub15_7,
+    },
+    {
+      path: "/heading15/sub15-8",
+      component: Sub15_8,
+    },
+    {
+      path: "/heading15/sub15-9",
+      component: Sub15_9,
+    },
+    {
+      path: "/heading15/sub15-10",
+      component: Sub15_10,
+    },
+
+
+
   ],
 });

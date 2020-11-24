@@ -177,7 +177,60 @@ import Sub15_8 from "./views/Heading15/Sub15_8.vue";
 import Sub15_9 from "./views/Heading15/Sub15_9.vue";
 import Sub15_10 from "./views/Heading15/Sub15_10.vue";
 
+import Sub16_1 from "./views/Heading16/Sub16_1.vue";
+import Sub16_2 from "./views/Heading16/Sub16_2.vue";
+import Sub16_3 from "./views/Heading16/Sub16_3.vue";
+import Sub16_4 from "./views/Heading16/Sub16_4.vue";
+import Sub16_5 from "./views/Heading16/Sub16_5.vue";
+import Sub16_6 from "./views/Heading16/Sub16_6.vue";
+import Sub16_7 from "./views/Heading16/Sub16_7.vue";
+import Sub16_8 from "./views/Heading16/Sub16_8.vue";
+import Sub16_9 from "./views/Heading16/Sub16_9.vue";
+import Sub16_10 from "./views/Heading16/Sub16_10.vue";
 
+import Sub17_1 from "./views/Heading17/Sub17_1.vue";
+import Sub17_2 from "./views/Heading17/Sub17_2.vue";
+import Sub17_3 from "./views/Heading17/Sub17_3.vue";
+import Sub17_4 from "./views/Heading17/Sub17_4.vue";
+import Sub17_5 from "./views/Heading17/Sub17_5.vue";
+import Sub17_6 from "./views/Heading17/Sub17_6.vue";
+import Sub17_7 from "./views/Heading17/Sub17_7.vue";
+import Sub17_8 from "./views/Heading17/Sub17_8.vue";
+import Sub17_9 from "./views/Heading17/Sub17_9.vue";
+import Sub17_10 from "./views/Heading17/Sub17_10.vue";
+
+import Sub18_1 from "./views/Heading18/Sub18_1.vue";
+import Sub18_2 from "./views/Heading18/Sub18_2.vue";
+import Sub18_3 from "./views/Heading18/Sub18_3.vue";
+import Sub18_4 from "./views/Heading18/Sub18_4.vue";
+import Sub18_5 from "./views/Heading18/Sub18_5.vue";
+import Sub18_6 from "./views/Heading18/Sub18_6.vue";
+import Sub18_7 from "./views/Heading18/Sub18_7.vue";
+import Sub18_8 from "./views/Heading18/Sub18_8.vue";
+import Sub18_9 from "./views/Heading18/Sub18_9.vue";
+import Sub18_10 from "./views/Heading18/Sub18_10.vue";
+
+import Sub19_1 from "./views/Heading19/Sub19_1.vue";
+import Sub19_2 from "./views/Heading19/Sub19_2.vue";
+import Sub19_3 from "./views/Heading19/Sub19_3.vue";
+import Sub19_4 from "./views/Heading19/Sub19_4.vue";
+import Sub19_5 from "./views/Heading19/Sub19_5.vue";
+import Sub19_6 from "./views/Heading19/Sub19_6.vue";
+import Sub19_7 from "./views/Heading19/Sub19_7.vue";
+import Sub19_8 from "./views/Heading19/Sub19_8.vue";
+import Sub19_9 from "./views/Heading19/Sub19_9.vue";
+import Sub19_10 from "./views/Heading19/Sub19_10.vue";
+
+import Sub20_1 from "./views/Heading20/Sub20_1.vue";
+import Sub20_2 from "./views/Heading20/Sub20_2.vue";
+import Sub20_3 from "./views/Heading20/Sub20_3.vue";
+import Sub20_4 from "./views/Heading20/Sub20_4.vue";
+import Sub20_5 from "./views/Heading20/Sub20_5.vue";
+import Sub20_6 from "./views/Heading20/Sub20_6.vue";
+import Sub20_7 from "./views/Heading20/Sub20_7.vue";
+import Sub20_8 from "./views/Heading20/Sub20_8.vue";
+import Sub20_9 from "./views/Heading20/Sub20_9.vue";
+import Sub20_10 from "./views/Heading20/Sub20_10.vue";
 
 Vue.use(Router);
 
@@ -843,7 +896,209 @@ export const router = new Router({
       component: Sub15_10,
     },
 
+    {
+      path: "/heading16/sub16-1",
+      component: Sub16_1,
+    },
+    {
+      path: "/heading16/sub16-2",
+      component: Sub16_2,
+    },
+    {
+      path: "/heading16/sub16-3",
+      component: Sub16_3,
+    },
+    {
+      path: "/heading16/sub16-4",
+      component: Sub16_4,
+    },
+    {
+      path: "/heading16/sub16-5",
+      component: Sub16_5,
+    },
+    {
+      path: "/heading16/sub16-6",
+      component: Sub16_6,
+    },
+    {
+      path: "/heading16/sub16-7",
+      component: Sub16_7,
+    },
+    {
+      path: "/heading16/sub16-8",
+      component: Sub16_8,
+    },
+    {
+      path: "/heading16/sub16-9",
+      component: Sub16_9,
+    },
+    {
+      path: "/heading16/sub16-10",
+      component: Sub16_10,
+    },
 
+    {
+      path: "/heading17/sub17-1",
+      component: Sub17_1,
+    },
+    {
+      path: "/heading17/sub17-2",
+      component: Sub17_2,
+    },
+    {
+      path: "/heading17/sub17-3",
+      component: Sub17_3,
+    },
+    {
+      path: "/heading17/sub17-4",
+      component: Sub17_4,
+    },
+    {
+      path: "/heading17/sub17-5",
+      component: Sub17_5,
+    },
+    {
+      path: "/heading17/sub17-6",
+      component: Sub17_6,
+    },
+    {
+      path: "/heading17/sub17-7",
+      component: Sub17_7,
+    },
+    {
+      path: "/heading17/sub17-8",
+      component: Sub17_8,
+    },
+    {
+      path: "/heading17/sub17-9",
+      component: Sub17_9,
+    },
+    {
+      path: "/heading17/sub17-10",
+      component: Sub17_10,
+    },
 
+    {
+      path: "/heading18/sub18-1",
+      component: Sub18_1,
+    },
+    {
+      path: "/heading18/sub18-2",
+      component: Sub18_2,
+    },
+    {
+      path: "/heading18/sub18-3",
+      component: Sub18_3,
+    },
+    {
+      path: "/heading18/sub18-4",
+      component: Sub18_4,
+    },
+    {
+      path: "/heading18/sub18-5",
+      component: Sub18_5,
+    },
+    {
+      path: "/heading18/sub18-6",
+      component: Sub18_6,
+    },
+    {
+      path: "/heading18/sub18-7",
+      component: Sub18_7,
+    },
+    {
+      path: "/heading18/sub18-8",
+      component: Sub18_8,
+    },
+    {
+      path: "/heading18/sub18-9",
+      component: Sub18_9,
+    },
+    {
+      path: "/heading18/sub18-10",
+      component: Sub18_10,
+    },
+
+    {
+      path: "/heading19/sub19-1",
+      component: Sub19_1,
+    },
+    {
+      path: "/heading19/sub19-2",
+      component: Sub19_2,
+    },
+    {
+      path: "/heading19/sub19-3",
+      component: Sub19_3,
+    },
+    {
+      path: "/heading19/sub19-4",
+      component: Sub19_4,
+    },
+    {
+      path: "/heading19/sub19-5",
+      component: Sub19_5,
+    },
+    {
+      path: "/heading19/sub19-6",
+      component: Sub19_6,
+    },
+    {
+      path: "/heading19/sub19-7",
+      component: Sub19_7,
+    },
+    {
+      path: "/heading19/sub19-8",
+      component: Sub19_8,
+    },
+    {
+      path: "/heading19/sub19-9",
+      component: Sub19_9,
+    },
+    {
+      path: "/heading19/sub19-10",
+      component: Sub19_10,
+    },
+
+    {
+      path: "/heading20/sub20-1",
+      component: Sub20_1,
+    },
+    {
+      path: "/heading20/sub20-2",
+      component: Sub20_2,
+    },
+    {
+      path: "/heading20/sub20-3",
+      component: Sub20_3,
+    },
+    {
+      path: "/heading20/sub20-4",
+      component: Sub20_4,
+    },
+    {
+      path: "/heading20/sub20-5",
+      component: Sub20_5,
+    },
+    {
+      path: "/heading20/sub20-6",
+      component: Sub20_6,
+    },
+    {
+      path: "/heading20/sub20-7",
+      component: Sub20_7,
+    },
+    {
+      path: "/heading20/sub20-8",
+      component: Sub20_8,
+    },
+    {
+      path: "/heading20/sub20-9",
+      component: Sub20_9,
+    },
+    {
+      path: "/heading20/sub20-10",
+      component: Sub20_10,
+    }
   ],
 });

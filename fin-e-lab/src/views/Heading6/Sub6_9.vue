@@ -1,12 +1,14 @@
 <template>
   <div>
     <iframe
-      src=""
+      src="https://consolis-my.sharepoint.com/personal/mihkel_jaaniste_consolis_com/_layouts/15/Doc.aspx?sourcedoc={d5b1793a-96d9-4ed8-bc62-47ab6445b3cb}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
       width="100%"
       height="850px"
       frameborder="0"
-      >
-      </iframe>
+      >This is an embedded
+      <a target="_blank" href="https://office.com">Microsoft Office</a>
+      document, powered by
+      <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
   </div>
 </template>
 

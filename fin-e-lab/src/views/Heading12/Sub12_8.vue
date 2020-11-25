@@ -1,7 +1,7 @@
 <template>
- <div>
+  <div>
     <iframe
-      src="https://consolis-my.sharepoint.com/personal/oleksandr_shpakovskyi_consolis_com/_layouts/15/Doc.aspx?sourcedoc={aadd37e5-4f7c-4744-909c-52f685a2d652}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
+      src="https://consolis-my.sharepoint.com/personal/mihkel_jaaniste_consolis_com/_layouts/15/Doc.aspx?sourcedoc={b6d64081-59e7-4b05-ae10-58f3101770e1}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
       width="100%"
       height="850px"
       frameborder="0"
@@ -13,11 +13,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

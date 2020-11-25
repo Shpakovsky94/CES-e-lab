@@ -1,7 +1,7 @@
 <template>
- <div>
+  <div>
     <iframe
-      src="https://consolis-my.sharepoint.com/personal/oleksandr_shpakovskyi_consolis_com/_layouts/15/Doc.aspx?sourcedoc={d8a7e939-785b-4ea1-9a0e-1dce2640bfa9}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
+      src="https://consolis-my.sharepoint.com/personal/mihkel_jaaniste_consolis_com/_layouts/15/Doc.aspx?sourcedoc={f42f280e-8726-443f-86d9-e859d0ca2aaf}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
       width="100%"
       height="850px"
       frameborder="0"
@@ -10,15 +10,10 @@
       document, powered by
       <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
   </div>
-
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

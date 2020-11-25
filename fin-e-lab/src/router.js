@@ -122,16 +122,6 @@ import Sub11_7 from "./views/Heading11/Sub11_7.vue";
 import Sub11_8 from "./views/Heading11/Sub11_8.vue";
 import Sub11_9 from "./views/Heading11/Sub11_9.vue";
 import Sub11_10 from "./views/Heading11/Sub11_10.vue";
-import Sub11_11 from "./views/Heading11/Sub11_11.vue";
-import Sub11_12 from "./views/Heading11/Sub11_12.vue";
-import Sub11_13 from "./views/Heading11/Sub11_13.vue";
-import Sub11_14 from "./views/Heading11/Sub11_14.vue";
-import Sub11_15 from "./views/Heading11/Sub11_15.vue";
-import Sub11_16 from "./views/Heading11/Sub11_16.vue";
-import Sub11_17 from "./views/Heading11/Sub11_17.vue";
-import Sub11_18 from "./views/Heading11/Sub11_18.vue";
-import Sub11_19 from "./views/Heading11/Sub11_19.vue";
-import Sub11_20 from "./views/Heading11/Sub11_20.vue";
 
 import Sub12_1 from "./views/Heading12/Sub12_1.vue";
 import Sub12_2 from "./views/Heading12/Sub12_2.vue";
@@ -690,46 +680,6 @@ export const router = new Router({
     {
       path: "/heading11/sub11-10",
       component: Sub11_10,
-    },
-    {
-      path: "/heading11/sub11-11",
-      component: Sub11_11,
-    },
-    {
-      path: "/heading11/sub11-12",
-      component: Sub11_12,
-    },
-    {
-      path: "/heading11/sub11-13",
-      component: Sub11_13,
-    },
-    {
-      path: "/heading11/sub11-14",
-      component: Sub11_14,
-    },
-    {
-      path: "/heading11/sub11-15",
-      component: Sub11_15,
-    },
-    {
-      path: "/heading11/sub11-16",
-      component: Sub11_16,
-    },
-    {
-      path: "/heading11/sub11-17",
-      component: Sub11_17,
-    },
-    {
-      path: "/heading11/sub11-18",
-      component: Sub11_18,
-    },
-    {
-      path: "/heading11/sub11-19",
-      component: Sub11_19,
-    },
-    {
-      path: "/heading11/sub11-20",
-      component: Sub11_20,
     },
 
     {

@@ -708,7 +708,7 @@
                 </router-link>
               </li>
               <li v-if="this.sub13_6 != '0'">
-                <router-link to="/heading6/sub13-6">
+                <router-link to="/heading13/sub13-6">
                   <span id="sub13_6"></span>
                 </router-link>
               </li>
@@ -1877,7 +1877,7 @@ export default {
     this.sub20_3 = json.sub20_3;
     this.sub20_4 = json.sub20_4;
     this.sub20_5 = json.sub20_5;
-    this.sub20_8 = json.sub20_6;
+    this.sub20_6 = json.sub20_6;
     this.sub20_7 = json.sub20_7;
     this.sub20_8 = json.sub20_8;
     this.sub20_9 = json.sub20_9;

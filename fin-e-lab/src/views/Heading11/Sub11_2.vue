@@ -1,12 +1,14 @@
 <template>
   <div>
     <iframe
+      src="https://consolis-my.sharepoint.com/personal/mihkel_jaaniste_consolis_com/_layouts/15/Doc.aspx?sourcedoc={197b0369-bf51-42da-8e13-124e9b9eb211}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0"
       width="100%"
       height="850px"
       frameborder="0"
-      scrolling="no"
-      src="https://consolis-my.sharepoint.com/personal/mihkel_jaaniste_consolis_com/_layouts/15/Doc.aspx?sourcedoc={f2374d98-0aa8-4c7b-afd2-619cd2a8bfd0}&action=embedview&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True"
-    ></iframe>
+      >This is an embedded
+      <a target="_blank" href="https://office.com">Microsoft Office</a>
+      document, powered by
+      <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
   </div>
 </template>
 

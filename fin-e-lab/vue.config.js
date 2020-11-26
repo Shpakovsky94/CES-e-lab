@@ -9,14 +9,12 @@ module.exports = {
         'window.jQuery': 'jquery',
         jQuery: 'jquery'
       })
-    ]
+    ],
+      // devServer: {
+      //     host: 'ces-fin',
+      //     port: '8888'
+      // }
   },
   "transpileDependencies": [
-  ],
-  // devServer: {
-  //   host: 'ces-fin',
-  //   disableHostCheck: true
-
-  // }
-  
+  ]
 }

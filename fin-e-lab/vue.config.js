@@ -10,10 +10,10 @@ module.exports = {
         jQuery: 'jquery'
       })
     ],
-      // devServer: {
-      //     host: 'ces-fin',
-      //     port: '8888'
-      // }
+      devServer: {
+          host: 'ces-fin',
+          port: '8888'
+      }
   },
   "transpileDependencies": [
   ]

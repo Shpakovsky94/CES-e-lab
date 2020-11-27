@@ -11,8 +11,8 @@ module.exports = {
       })
     ],
       devServer: {
-          host: 'ces-fin',
-          port: '8888'
+          // host: 'ces-fin',
+          // port: '8888'
       }
   },
   "transpileDependencies": [
